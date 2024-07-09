@@ -25,10 +25,12 @@ Ini dibuat pada tahun 2022-2023 menggunakan framework CodeIgniter versi lawas, d
 
 ## Access
 
-`Member`
+```
+Member
 username: sergihen
 password: anggota
 
-`admin`
+admin
 username: admin
 password: admin
+```
