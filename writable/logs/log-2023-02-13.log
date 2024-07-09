@@ -1,0 +1,1912 @@
+CRITICAL - 2023-02-13 00:03:25 --> Class "App\Filters" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('dashboard/anggota/Buku/k', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 00:16:09 --> Undefined variable $validation
+in APPPATH\Views\dashboard\profile.php on line 23.
+ 1 APPPATH\Views\dashboard\profile.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\dashboard\\profile.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/profile', [], true)
+ 5 APPPATH\Controllers\Dashboard\Profile.php(24): view('dashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 00:16:38 --> Undefined array key "img"
+in APPPATH\Views\dashboard\profile.php on line 37.
+ 1 APPPATH\Views\dashboard\profile.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'APPPATH\\Views\\dashboard\\profile.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/profile', [], true)
+ 5 APPPATH\Controllers\Dashboard\Profile.php(24): view('dashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 00:17:23 --> Undefined array key "img"
+in APPPATH\Views\dashboard\profile.php on line 37.
+ 1 APPPATH\Views\dashboard\profile.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'APPPATH\\Views\\dashboard\\profile.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/profile', [], true)
+ 5 APPPATH\Controllers\Dashboard\Profile.php(24): view('dashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 00:17:39 --> Undefined array key "address"
+in APPPATH\Views\dashboard\profile.php on line 58.
+ 1 APPPATH\Views\dashboard\profile.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'APPPATH\\Views\\dashboard\\profile.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/profile', [], true)
+ 5 APPPATH\Controllers\Dashboard\Profile.php(24): view('dashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 00:18:17 --> Undefined array key "tags"
+in APPPATH\Views\dashboard\profile.php on line 61.
+ 1 APPPATH\Views\dashboard\profile.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tags"', 'APPPATH\\Views\\dashboard\\profile.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/profile', [], true)
+ 5 APPPATH\Controllers\Dashboard\Profile.php(24): view('dashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 00:26:49 --> Undefined array key "kelas"
+in APPPATH\Controllers\Dashboard\Profile.php on line 36.
+ 1 APPPATH\Controllers\Dashboard\Profile.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas"', 'APPPATH\\Controllers\\Dashboard\\Profile.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 00:32:13 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Dashboard\Profile.php on line 45.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('dashboard/profile')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('dashboard/profile')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('dashboard/profile')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 00:32:34 --> Undefined array key "alamat"
+in APPPATH\Controllers\Dashboard\Profile.php on line 38.
+ 1 APPPATH\Controllers\Dashboard\Profile.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'APPPATH\\Controllers\\Dashboard\\Profile.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 00:55:38 --> mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bu...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Perpustakaan\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Perpustakaan\system\Model.php(699): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Perpustakaan\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Perpustakaan\app\Controllers\Dashboard\Anggota\Buku.php(52): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->req()
+#10 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+#11 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-13 00:55:38 --> Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `buku` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'2\', \'2023-02-13 00:55:38\', \'2023-02-13 00:55:38\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'2\', \'2023-02-13 00:55:38\', \'2023-02-13 00:55:38\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'2\', \'2023-02-13 00:55:38\', \'2023-02-13 00:55:38\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (:user_id:, :buku_id:, :durasi:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(699): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Dashboard\Anggota\Buku.php(52): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->req()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 00:56:06 --> mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bu...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Perpustakaan\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Perpustakaan\system\Model.php(699): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Perpustakaan\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Perpustakaan\app\Controllers\Dashboard\Anggota\Buku.php(52): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->req()
+#10 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+#11 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-13 00:56:06 --> Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `buku` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'2\', \'2023-02-13 00:56:06\', \'2023-02-13 00:56:06\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'2\', \'2023-02-13 00:56:06\', \'2023-02-13 00:56:06\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'2\', \'2023-02-13 00:56:06\', \'2023-02-13 00:56:06\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (:user_id:, :buku_id:, :durasi:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(699): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Dashboard\Anggota\Buku.php(52): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->req()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 00:56:17 --> mysqli_sql_exception: Unknown column 'buku_id' in 'field list' in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bu...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Perpustakaan\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Perpustakaan\system\Model.php(699): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Perpustakaan\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Perpustakaan\app\Controllers\Dashboard\Anggota\Buku.php(52): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->req()
+#10 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+#11 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-13 00:56:17 --> Unknown column 'buku_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `buku` (`buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'2\', \'2023-02-13 00:56:17\', \'2023-02-13 00:56:17\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'2\', \'2023-02-13 00:56:17\', \'2023-02-13 00:56:17\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'2\', \'2023-02-13 00:56:17\', \'2023-02-13 00:56:17\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (:buku_id:, :durasi:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(699): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Dashboard\Anggota\Buku.php(52): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->req()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 00:56:29 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Perpustakaan\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Perpustakaan\system\Model.php(699): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Perpustakaan\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Perpustakaan\app\Controllers\Dashboard\Anggota\Buku.php(52): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->req()
+#10 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+#11 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-13 00:56:29 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `peminjaman` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'2\', \'2023-02-13 00:56:29\', \'2023-02-13 00:56:29\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `peminjaman` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'2\', \'2023-02-13 00:56:29\', \'2023-02-13 00:56:29\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `peminjaman` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'2\', \'2023-02-13 00:56:29\', \'2023-02-13 00:56:29\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `peminjaman` (`user_id`, `buku_id`, `durasi`, `created_at`, `updated_at`) VALUES (:user_id:, :buku_id:, :durasi:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(699): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Dashboard\Anggota\Buku.php(52): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->req()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 01:04:11 --> mysqli_sql_exception: Unknown column 'peminjaman.books_id' in 'on clause' in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `peminja...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `peminja...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `peminja...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `peminja...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Perpustakaan\system\BaseModel.php(525): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\laragon\www\Perpustakaan\app\Controllers\Dashboard\Anggota\Buku.php(74): CodeIgniter\BaseModel->find()
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->pinjaman()
+#8 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-13 01:04:11 --> Unknown column 'peminjaman.books_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `peminjaman`.*, `pengarang`.`pengarang`, `penerbit`.`penerbit`, `buku`.`pengarang`, `buku`.`penerbit`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`books_id`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `user_id` = \'1\'
+AND `status` = \'1\'
+OR `status` = \'0\'
+AND `peminjaman`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `peminjaman`.*, `pengarang`.`pengarang`, `penerbit`.`penerbit`, `buku`.`pengarang`, `buku`.`penerbit`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`books_id`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `user_id` = \'1\'
+AND `status` = \'1\'
+OR `status` = \'0\'
+AND `peminjaman`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `peminjaman`.*, `pengarang`.`pengarang`, `penerbit`.`penerbit`, `buku`.`pengarang`, `buku`.`penerbit`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`books_id`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `user_id` = \'1\'
+AND `status` = \'1\'
+OR `status` = \'0\'
+AND `peminjaman`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `peminjaman`.*, `pengarang`.`pengarang`, `penerbit`.`penerbit`, `buku`.`pengarang`, `buku`.`penerbit`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`books_id`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `user_id` = :user_id:
+AND `status` = :status:
+OR `status` = :status.1:
+AND `peminjaman`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(525): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Dashboard\Anggota\Buku.php(74): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->pinjaman()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:04:29 --> Invalid file: dashboard/anggota/.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/anggota/.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/', [], true)
+ 3 APPPATH\Controllers\Dashboard\Anggota\Buku.php(77): view('dashboard/anggota/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->pinjaman()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:04:37 --> Undefined array key "title"
+in APPPATH\Views\dashboard\anggota\pinjaman.php on line 22.
+ 1 APPPATH\Views\dashboard\anggota\pinjaman.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\anggota\\pinjaman.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Buku.php(77): view('dashboard/anggota/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:04:52 --> Undefined array key "until_at"
+in APPPATH\Views\dashboard\anggota\pinjaman.php on line 35.
+ 1 APPPATH\Views\dashboard\anggota\pinjaman.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "until_at"', 'APPPATH\\Views\\dashboard\\anggota\\pinjaman.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Buku.php(77): view('dashboard/anggota/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:05:33 --> Undefined array key "batas_waktu"
+in APPPATH\Views\dashboard\anggota\pinjaman.php on line 35.
+ 1 APPPATH\Views\dashboard\anggota\pinjaman.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batas_waktu"', 'APPPATH\\Views\\dashboard\\anggota\\pinjaman.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Buku.php(77): view('dashboard/anggota/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 01:12:29 --> mysqli_sql_exception: Column 'kategori' in where clause is ambiguous in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `buku`.*...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Perpustakaan\system\BaseModel.php(525): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\laragon\www\Perpustakaan\app\Controllers\Dashboard\Anggota\Buku.php(45): CodeIgniter\BaseModel->find()
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->k('1')
+#8 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-13 01:12:29 --> Column 'kategori' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `buku`.*, `pengarang`.`pengarang`, `kategori`.`kategori`, `rak`.`rak`, `penerbit`.`penerbit`
+FROM `buku`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `kategori` ON `kategori`.`id` = `buku`.`kategori`
+JOIN `rak` ON `rak`.`id` = `buku`.`rak`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `kategori` = \'1\'
+AND `buku`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `pengarang`.`pengarang`, `kategori`.`kategori`, `rak`.`rak`, `penerbit`.`penerbit`
+FROM `buku`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `kategori` ON `kategori`.`id` = `buku`.`kategori`
+JOIN `rak` ON `rak`.`id` = `buku`.`rak`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `kategori` = \'1\'
+AND `buku`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `pengarang`.`pengarang`, `kategori`.`kategori`, `rak`.`rak`, `penerbit`.`penerbit`
+FROM `buku`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `kategori` ON `kategori`.`id` = `buku`.`kategori`
+JOIN `rak` ON `rak`.`id` = `buku`.`rak`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `kategori` = \'1\'
+AND `buku`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `pengarang`.`pengarang`, `kategori`.`kategori`, `rak`.`rak`, `penerbit`.`penerbit`
+FROM `buku`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `kategori` ON `kategori`.`id` = `buku`.`kategori`
+JOIN `rak` ON `rak`.`id` = `buku`.`rak`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `kategori` = :kategori:
+AND `buku`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(525): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Dashboard\Anggota\Buku.php(45): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->k('1')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:24:51 --> Undefined array key "img"
+in APPPATH\Views\dashboard\pesan.php on line 23.
+ 1 APPPATH\Views\dashboard\pesan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'APPPATH\\Views\\dashboard\\pesan.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\pesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/pesan', [], true)
+ 5 APPPATH\Controllers\Dashboard\Pesan.php(25): view('dashboard/pesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:25:03 --> Undefined array key "title"
+in APPPATH\Views\dashboard\pesan.php on line 26.
+ 1 APPPATH\Views\dashboard\pesan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\pesan.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\pesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/pesan', [], true)
+ 5 APPPATH\Controllers\Dashboard\Pesan.php(25): view('dashboard/pesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:25:30 --> Undefined variable $judul
+in APPPATH\Views\dashboard\pesan.php on line 5.
+ 1 APPPATH\Views\dashboard\pesan.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\dashboard\\pesan.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\pesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/pesan', [], true)
+ 5 APPPATH\Controllers\Dashboard\Pesan.php(25): view('dashboard/pesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:25:31 --> Undefined variable $judul
+in APPPATH\Views\dashboard\pesan.php on line 5.
+ 1 APPPATH\Views\dashboard\pesan.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\dashboard\\pesan.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\pesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/pesan', [], true)
+ 5 APPPATH\Controllers\Dashboard\Pesan.php(25): view('dashboard/pesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 01:27:16 --> mysqli_sql_exception: Table 'perpustakaan_db.user_detail' doesn't exist in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `message...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `message...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `message...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `message...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Perpustakaan\system\BaseModel.php(525): CodeIgniter\Model->doFind(true, '1')
+#6 C:\laragon\www\Perpustakaan\app\Controllers\Dashboard\Pesan.php(47): CodeIgniter\BaseModel->find('1')
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->r('1')
+#8 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-13 01:27:16 --> Table 'perpustakaan_db.user_detail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `message`.*, `user`.`username`, `user`.`id` as `user_id`, `user_detail`.`img`
+FROM `pesan`
+JOIN `user` ON `user`.`id` = `message`.`from_user_id`
+JOIN `user_detail` ON `user_detail`.`id` = `user`.`id`
+WHERE `for_user_id` = \'2\'
+AND `pesan`.`deleted_at` IS NULL
+AND `pesan`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `message`.*, `user`.`username`, `user`.`id` as `user_id`, `user_detail`.`img`
+FROM `pesan`
+JOIN `user` ON `user`.`id` = `message`.`from_user_id`
+JOIN `user_detail` ON `user_detail`.`id` = `user`.`id`
+WHERE `for_user_id` = \'2\'
+AND `pesan`.`deleted_at` IS NULL
+AND `pesan`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `message`.*, `user`.`username`, `user`.`id` as `user_id`, `user_detail`.`img`
+FROM `pesan`
+JOIN `user` ON `user`.`id` = `message`.`from_user_id`
+JOIN `user_detail` ON `user_detail`.`id` = `user`.`id`
+WHERE `for_user_id` = \'2\'
+AND `pesan`.`deleted_at` IS NULL
+AND `pesan`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `message`.*, `user`.`username`, `user`.`id` as `user_id`, `user_detail`.`img`
+FROM `pesan`
+JOIN `user` ON `user`.`id` = `message`.`from_user_id`
+JOIN `user_detail` ON `user_detail`.`id` = `user`.`id`
+WHERE `for_user_id` = :for_user_id:
+AND `pesan`.`deleted_at` IS NULL
+AND `pesan`.`id` = :pesan.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(525): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH\Controllers\Dashboard\Pesan.php(47): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->r('1')
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:28:39 --> Call to a member function select() on array
+in APPPATH\Controllers\Dashboard\Pesan.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->r('1')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:28:48 --> Undefined array key "pesan"
+in APPPATH\Controllers\Dashboard\Pesan.php on line 48.
+ 1 APPPATH\Controllers\Dashboard\Pesan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesan"', 'APPPATH\\Controllers\\Dashboard\\Pesan.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->r('1')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:29:03 --> Allowed fields must be specified for model: App\Models\PesanModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\PesanModel')
+ 2 SYSTEMPATH\BaseModel.php(863): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(725): CodeIgniter\BaseModel->update([...], [...])
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->update('1', [...])
+ 5 APPPATH\Controllers\Dashboard\Pesan.php(51): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->r('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:29:56 --> Invalid file: dashboard/message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/message', [], true)
+ 3 APPPATH\Controllers\Dashboard\Pesan.php(56): view('dashboard/message', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->r('1')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:30:07 --> date_create(): Passing null to parameter #1 ($datetime) of type string is deprecated
+in APPPATH\Views\dashboard\pesan.php on line 43.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create(): Passing null to parameter #1 ($datetime) of type string is deprecated', 'APPPATH\\Views\\dashboard\\pesan.php', 43)
+ 2 APPPATH\Views\dashboard\pesan.php(43): date_create(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\pesan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/pesan', [], true)
+ 6 APPPATH\Controllers\Dashboard\Pesan.php(56): view('dashboard/pesan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->r('1')
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:35:13 --> Invalid file: dashboard/message-sent.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/message-sent.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/message-sent', [], true)
+ 3 APPPATH\Controllers\Dashboard\Pesan.php(74): view('dashboard/message-sent', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->terkirim()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:39:11 --> Invalid file: dashboard/pesan-rekirim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/pesan-rekirim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/pesan-rekirim', [], true)
+ 3 APPPATH\Controllers\Dashboard\Pesan.php(74): view('dashboard/pesan-rekirim', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->terkirim()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:40:28 --> Undefined array key "title"
+in APPPATH\Views\dashboard\pesan-terkirim.php on line 26.
+ 1 APPPATH\Views\dashboard\pesan-terkirim.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\pesan-terkirim.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\pesan-terkirim.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/pesan-terkirim', [], true)
+ 5 APPPATH\Controllers\Dashboard\Pesan.php(74): view('dashboard/pesan-terkirim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Pesan->terkirim()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 01:52:50 --> mysqli_sql_exception: Duplicate entry 'sergihen' for key 'user.username' in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Perpustakaan\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Perpustakaan\system\Model.php(699): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Perpustakaan\system\BaseModel.php(660): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Perpustakaan\app\Controllers\Auth.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Auth->register()
+#10 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-13 01:52:50 --> Duplicate entry 'sergihen' for key 'user.username'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user` (`username`, `email`, `password`, `fullname`, `foto`, `created_at`, `updated_at`) VALUES (\'sergihen\', \'sergihe@test.com\', \'$2y$10$FLJZs5GwTjC4J4t7MoPfne05LgXHIoGaGwdamuZyKHtuWN6qFROlK\', \'sergihen\', \'Default.jpg\', \'2023-02-13 01:52:50\', \'2023-02-13 01:52:50\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`username`, `email`, `password`, `fullname`, `foto`, `created_at`, `updated_at`) VALUES (\'sergihen\', \'sergihe@test.com\', \'$2y$10$FLJZs5GwTjC4J4t7MoPfne05LgXHIoGaGwdamuZyKHtuWN6qFROlK\', \'sergihen\', \'Default.jpg\', \'2023-02-13 01:52:50\', \'2023-02-13 01:52:50\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`username`, `email`, `password`, `fullname`, `foto`, `created_at`, `updated_at`) VALUES (\'sergihen\', \'sergihe@test.com\', \'$2y$10$FLJZs5GwTjC4J4t7MoPfne05LgXHIoGaGwdamuZyKHtuWN6qFROlK\', \'sergihen\', \'Default.jpg\', \'2023-02-13 01:52:50\', \'2023-02-13 01:52:50\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `email`, `password`, `fullname`, `foto`, `created_at`, `updated_at`) VALUES (:username:, :email:, :password:, :fullname:, :foto:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(699): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Auth.php(65): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->register()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:56:20 --> Undefined variable $borrowed_count
+in APPPATH\Views\dashboard\anggota\home.php on line 21.
+ 1 APPPATH\Views\dashboard\anggota\home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $borrowed_count', 'APPPATH\\Views\\dashboard\\anggota\\home.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Home.php(16): view('dashboard/anggota/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:57:03 --> Undefined variable $peminjaman_ttl
+in APPPATH\Views\dashboard\anggota\home.php on line 21.
+ 1 APPPATH\Views\dashboard\anggota\home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peminjaman_ttl', 'APPPATH\\Views\\dashboard\\anggota\\home.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Home.php(16): view('dashboard/anggota/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:59:28 --> syntax error, unexpected token "->", expecting "]"
+in APPPATH\Controllers\Dashboard\Anggota\Home.php on line 28.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('dashboard/anggota')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('dashboard/anggota')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('dashboard/anggota')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:59:39 --> Undefined variable $pengembalian_ttl
+in APPPATH\Views\dashboard\anggota\home.php on line 35.
+ 1 APPPATH\Views\dashboard\anggota\home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengembalian_ttl', 'APPPATH\\Views\\dashboard\\anggota\\home.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Home.php(31): view('dashboard/anggota/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 01:59:48 --> Undefined variable $notif
+in APPPATH\Views\dashboard\anggota\home.php on line 48.
+ 1 APPPATH\Views\dashboard\anggota\home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $notif', 'APPPATH\\Views\\dashboard\\anggota\\home.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Home.php(31): view('dashboard/anggota/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 02:00:06 --> Undefined variable $notif
+in APPPATH\Views\dashboard\anggota\home.php on line 48.
+ 1 APPPATH\Views\dashboard\anggota\home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $notif', 'APPPATH\\Views\\dashboard\\anggota\\home.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Home.php(31): view('dashboard/anggota/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 02:00:17 --> Undefined variable $n
+in APPPATH\Views\dashboard\anggota\home.php on line 52.
+ 1 APPPATH\Views\dashboard\anggota\home.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $n', 'APPPATH\\Views\\dashboard\\anggota\\home.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Home.php(31): view('dashboard/anggota/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 02:00:32 --> Undefined variable $n
+in APPPATH\Views\dashboard\anggota\home.php on line 60.
+ 1 APPPATH\Views\dashboard\anggota\home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $n', 'APPPATH\\Views\\dashboard\\anggota\\home.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Home.php(31): view('dashboard/anggota/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 18:22:33 --> mysqli_sql_exception: Unknown column 'satus' in 'where clause' in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `peminja...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `peminja...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `peminja...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `peminja...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Perpustakaan\system\BaseModel.php(525): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\laragon\www\Perpustakaan\app\Controllers\Dashboard\Anggota\Buku.php(83): CodeIgniter\BaseModel->find()
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->pinjaman()
+#8 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-13 18:22:33 --> Unknown column 'satus' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `peminjaman`.*, `pengarang`.`pengarang` as `nm_pengarang`, `penerbit`.`penerbit` as `nm_penerbit`, `buku`.`pengarang`, `buku`.`penerbit`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`buku_id`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `peminjaman`.`user_id` = \'1\'
+AND `satus` = \'1\'
+AND `peminjaman`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `peminjaman`.*, `pengarang`.`pengarang` as `nm_pengarang`, `penerbit`.`penerbit` as `nm_penerbit`, `buku`.`pengarang`, `buku`.`penerbit`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`buku_id`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `peminjaman`.`user_id` = \'1\'
+AND `satus` = \'1\'
+AND `peminjaman`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `peminjaman`.*, `pengarang`.`pengarang` as `nm_pengarang`, `penerbit`.`penerbit` as `nm_penerbit`, `buku`.`pengarang`, `buku`.`penerbit`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`buku_id`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `peminjaman`.`user_id` = \'1\'
+AND `satus` = \'1\'
+AND `peminjaman`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `peminjaman`.*, `pengarang`.`pengarang` as `nm_pengarang`, `penerbit`.`penerbit` as `nm_penerbit`, `buku`.`pengarang`, `buku`.`penerbit`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`buku_id`
+JOIN `pengarang` ON `pengarang`.`id` = `buku`.`pengarang`
+JOIN `penerbit` ON `penerbit`.`id` = `buku`.`penerbit`
+WHERE `peminjaman`.`user_id` = :peminjaman.user_id:
+AND `satus` = :satus:
+AND `peminjaman`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(525): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Dashboard\Anggota\Buku.php(83): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->pinjaman()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:34:07 --> Invalid file: dashboard/admin/home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/admin/home.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/home', [], true)
+ 3 APPPATH\Controllers\Dashboard\Admin\Home.php(31): view('dashboard/admin/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:37:44 --> Undefined variable $n
+in APPPATH\Views\dashboard\anggota\home.php on line 52.
+ 1 APPPATH\Views\dashboard\anggota\home.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $n', 'APPPATH\\Views\\dashboard\\anggota\\home.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Home.php(38): view('dashboard/anggota/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:38:58 --> date_create(): Passing null to parameter #1 ($datetime) of type string is deprecated
+in APPPATH\Views\dashboard\anggota\home.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create(): Passing null to parameter #1 ($datetime) of type string is deprecated', 'APPPATH\\Views\\dashboard\\anggota\\home.php', 60)
+ 2 APPPATH\Views\dashboard\anggota\home.php(60): date_create(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/home', [], true)
+ 6 APPPATH\Controllers\Dashboard\Anggota\Home.php(38): view('dashboard/anggota/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:40:12 --> Invalid file: dashboard/admin/home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/admin/home.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/home', [], true)
+ 3 APPPATH\Controllers\Dashboard\Admin\Home.php(31): view('dashboard/admin/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:41:00 --> Undefined variable $user
+in APPPATH\Views\dashboard\admin\home.php on line 21.
+ 1 APPPATH\Views\dashboard\admin\home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\dashboard\\admin\\home.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Home.php(31): view('dashboard/admin/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:43:48 --> Array to string conversion
+in APPPATH\Views\dashboard\admin\home.php on line 21.
+ 1 APPPATH\Views\dashboard\admin\home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\dashboard\\admin\\home.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Home.php(39): view('dashboard/admin/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:43:56 --> Undefined variable $book
+in APPPATH\Views\dashboard\admin\home.php on line 35.
+ 1 APPPATH\Views\dashboard\admin\home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $book', 'APPPATH\\Views\\dashboard\\admin\\home.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Home.php(39): view('dashboard/admin/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 18:44:49 --> mysqli_sql_exception: Unknown column 'role' in 'where clause' in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(575): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\laragon\www\Perpustakaan\app\Controllers\Dashboard\Admin\Home.php(40): CodeIgniter\Model->countAllResults()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+#8 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-13 18:44:49 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `buku`
+WHERE `role` = \'anggota\'
+AND `buku`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `buku`
+WHERE `role` = \'anggota\'
+AND `buku`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `buku`
+WHERE `role` = \'anggota\'
+AND `buku`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `buku`
+WHERE `role` = :role:
+AND `buku`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(575): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\Dashboard\Admin\Home.php(40): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:46:23 --> Undefined variable $notif
+in APPPATH\Views\dashboard\admin\home.php on line 76.
+ 1 APPPATH\Views\dashboard\admin\home.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $notif', 'APPPATH\\Views\\dashboard\\admin\\home.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Home.php(47): view('dashboard/admin/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:47:06 --> Undefined array key "title"
+in APPPATH\Views\dashboard\admin\home.php on line 79.
+ 1 APPPATH\Views\dashboard\admin\home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\admin\\home.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Home.php(44): view('dashboard/admin/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:47:07 --> Undefined array key "title"
+in APPPATH\Views\dashboard\admin\home.php on line 79.
+ 1 APPPATH\Views\dashboard\admin\home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\admin\\home.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Home.php(44): view('dashboard/admin/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:47:07 --> Undefined array key "title"
+in APPPATH\Views\dashboard\admin\home.php on line 79.
+ 1 APPPATH\Views\dashboard\admin\home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\admin\\home.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/home', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Home.php(44): view('dashboard/admin/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:47:19 --> Undefined array key "app_name"
+in APPPATH\Views\essential\sidebar.php on line 7.
+ 1 APPPATH\Views\essential\sidebar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "app_name"', 'APPPATH\\Views\\essential\\sidebar.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\essential\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('essential/sidebar', null, true)
+ 5 APPPATH\Views\template\dashboard-tmp.php(36): CodeIgniter\View\View->include('essential/sidebar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\dashboard-tmp.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/dashboard-tmp', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/home', [], true)
+10 APPPATH\Controllers\Dashboard\Admin\Home.php(44): view('dashboard/admin/home', [...])
+11 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Home))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:58:58 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:00 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:12 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:22 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:22 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:22 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:24 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:32 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:32 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:32 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:32 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:33 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:33 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:33 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:33 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\register.php on line 15.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/register', [], true)
+ 4 APPPATH\Controllers\Auth.php(50): view('page/register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->register()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:34 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:34 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:34 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:35 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:36 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:36 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:36 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:39 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:39 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 18:59:59 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:00:11 --> Cannot use object of type App\Models\AplikasiModel as array
+in APPPATH\Views\page\login.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('page/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(21): view('page/login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:09:40 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Dashboard\Admin\Laporan.php on line 19.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('dashboard/admin/laporan/pinjaman')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('dashboard/admin/laporan/pinjaman')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('dashboard/admin/laporan/pinjaman')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:10:09 --> Invalid file: dashboard/admin/pinjaman.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/admin/pinjaman.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 3 APPPATH\Controllers\Dashboard\Admin\Laporan.php(31): view('dashboard/admin/pinjaman', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 19:15:02 --> mysqli_sql_exception: Unknown column 'user.fullname' in 'field list' in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `peminja...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `peminja...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `peminja...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `peminja...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Perpustakaan\system\BaseModel.php(525): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\laragon\www\Perpustakaan\app\Controllers\Dashboard\Admin\Laporan.php(36): CodeIgniter\BaseModel->find()
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+#8 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-13 19:15:02 --> Unknown column 'user.fullname' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `peminjaman`.*, `user`.`fullname`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`buku_id`
+WHERE `status` IN (\'1\')
+AND `peminjaman`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `peminjaman`.*, `user`.`fullname`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`buku_id`
+WHERE `status` IN (\'1\')
+AND `peminjaman`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `peminjaman`.*, `user`.`fullname`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`buku_id`
+WHERE `status` IN (\'1\')
+AND `peminjaman`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `peminjaman`.*, `user`.`fullname`, `buku`.`judul`
+FROM `peminjaman`
+JOIN `buku` ON `buku`.`id` = `peminjaman`.`buku_id`
+WHERE `status` IN :status:
+AND `peminjaman`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(525): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Dashboard\Admin\Laporan.php(36): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:15:39 --> Undefined array key "title"
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 39.
+ 1 APPPATH\Views\dashboard\admin\pinjaman.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(39): view('dashboard/admin/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:16:35 --> Undefined array key "condition_before"
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 41.
+ 1 APPPATH\Views\dashboard\admin\pinjaman.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "condition_before"', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(39): view('dashboard/admin/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:17:23 --> Undefined array key "until_at"
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 51.
+ 1 APPPATH\Views\dashboard\admin\pinjaman.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "until_at"', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(39): view('dashboard/admin/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:17:42 --> Undefined array key "batas_pinjaman"
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 51.
+ 1 APPPATH\Views\dashboard\admin\pinjaman.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batas_pinjaman"', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(39): view('dashboard/admin/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:17:50 --> date_create(): Passing null to parameter #1 ($datetime) of type string is deprecated
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create(): Passing null to parameter #1 ($datetime) of type string is deprecated', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 51)
+ 2 APPPATH\Views\dashboard\admin\pinjaman.php(51): date_create(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 6 APPPATH\Controllers\Dashboard\Admin\Laporan.php(39): view('dashboard/admin/pinjaman', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:18:37 --> Undefined array key "username"
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 54.
+ 1 APPPATH\Views\dashboard\admin\pinjaman.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(39): view('dashboard/admin/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:19:10 --> Undefined array key ""
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 54.
+ 1 APPPATH\Views\dashboard\admin\pinjaman.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(39): view('dashboard/admin/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:19:16 --> Undefined array key "title"
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 75.
+ 1 APPPATH\Views\dashboard\admin\pinjaman.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(39): view('dashboard/admin/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:25:02 --> Undefined array key "title"
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 120.
+ 1 APPPATH\Views\dashboard\admin\pinjaman.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 120)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(59): view('dashboard/admin/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:25:13 --> Undefined variable $dat
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 121.
+ 1 APPPATH\Views\dashboard\admin\pinjaman.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dat', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(59): view('dashboard/admin/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:25:30 --> Undefined array key "duration"
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 145.
+ 1 APPPATH\Views\dashboard\admin\pinjaman.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "duration"', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 145)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(59): view('dashboard/admin/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:37:02 --> Undefined array key "durasi"
+in APPPATH\Controllers\Dashboard\Admin\Laporan.php on line 78.
+ 1 APPPATH\Controllers\Dashboard\Admin\Laporan.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "durasi"', 'APPPATH\\Controllers\\Dashboard\\Admin\\Laporan.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:37:48 --> Undefined array key "duration"
+in APPPATH\Controllers\Dashboard\Admin\Laporan.php on line 67.
+ 1 APPPATH\Controllers\Dashboard\Admin\Laporan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "duration"', 'APPPATH\\Controllers\\Dashboard\\Admin\\Laporan.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:38:05 --> Undefined array key "id_book"
+in APPPATH\Controllers\Dashboard\Admin\Laporan.php on line 88.
+ 1 APPPATH\Controllers\Dashboard\Admin\Laporan.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_book"', 'APPPATH\\Controllers\\Dashboard\\Admin\\Laporan.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:38:15 --> Undefined array key "id_book"
+in APPPATH\Controllers\Dashboard\Admin\Laporan.php on line 91.
+ 1 APPPATH\Controllers\Dashboard\Admin\Laporan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_book"', 'APPPATH\\Controllers\\Dashboard\\Admin\\Laporan.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:38:22 --> Allowed fields must be specified for model: App\Models\BukuModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\BukuModel')
+ 2 SYSTEMPATH\BaseModel.php(863): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(725): CodeIgniter\BaseModel->update([...], [...])
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->update('2', [...])
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(92): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->save()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:39:31 --> date_create(): Passing null to parameter #1 ($datetime) of type string is deprecated
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create(): Passing null to parameter #1 ($datetime) of type string is deprecated', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 62)
+ 2 APPPATH\Views\dashboard\admin\pinjaman.php(62): date_create(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 6 APPPATH\Controllers\Dashboard\Admin\Laporan.php(39): view('dashboard/admin/pinjaman', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pinjaman()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:45:20 --> Undefined array key "until_at"
+in APPPATH\Views\dashboard\anggota\pinjaman.php on line 37.
+ 1 APPPATH\Views\dashboard\anggota\pinjaman.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "until_at"', 'APPPATH\\Views\\dashboard\\anggota\\pinjaman.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Buku.php(86): view('dashboard/anggota/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:45:43 --> Undefined array key "until_at"
+in APPPATH\Views\dashboard\anggota\pinjaman.php on line 37.
+ 1 APPPATH\Views\dashboard\anggota\pinjaman.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "until_at"', 'APPPATH\\Views\\dashboard\\anggota\\pinjaman.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\anggota\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/anggota/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Anggota\Buku.php(86): view('dashboard/anggota/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->pinjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:46:07 --> Undefined array key "durasi"
+in APPPATH\Controllers\Dashboard\Anggota\Buku.php on line 59.
+ 1 APPPATH\Controllers\Dashboard\Anggota\Buku.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "durasi"', 'APPPATH\\Controllers\\Dashboard\\Anggota\\Buku.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->req()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:54:04 --> Class "App\Models\KategoriModel" not found
+in APPPATH\Controllers\Dashboard\Anggota\Buku.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Dashboard\Anggota\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:56:07 --> Undefined array key "id"
+in APPPATH\Controllers\Dashboard\Anggota\Buku.php on line 48.
+ 1 APPPATH\Controllers\Dashboard\Anggota\Buku.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Dashboard\\Anggota\\Buku.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->k('Umum')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:57:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Dashboard\Anggota\Buku.php on line 48.
+ 1 APPPATH\Controllers\Dashboard\Anggota\Buku.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Dashboard\\Anggota\\Buku.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->k('All')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:57:38 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Dashboard\Anggota\Buku.php on line 48.
+ 1 APPPATH\Controllers\Dashboard\Anggota\Buku.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Dashboard\\Anggota\\Buku.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->k('All')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:57:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Dashboard\Anggota\Buku.php on line 48.
+ 1 APPPATH\Controllers\Dashboard\Anggota\Buku.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Dashboard\\Anggota\\Buku.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->k('All')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 19:57:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Dashboard\Anggota\Buku.php on line 48.
+ 1 APPPATH\Controllers\Dashboard\Anggota\Buku.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Dashboard\\Anggota\\Buku.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Anggota\Buku->k('alL')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Anggota\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:07:21 --> Undefined array key 2
+in APPPATH\Controllers\Dashboard\Admin\Laporan.php on line 109.
+ 1 APPPATH\Controllers\Dashboard\Admin\Laporan.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Dashboard\\Admin\\Laporan.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->returnSection()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:07:39 --> Undefined array key 1
+in APPPATH\Controllers\Dashboard\Admin\Laporan.php on line 115.
+ 1 APPPATH\Controllers\Dashboard\Admin\Laporan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Dashboard\\Admin\\Laporan.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->returnSection()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:07:55 --> Undefined array key "konidisi_sebelum"
+in APPPATH\Controllers\Dashboard\Admin\Laporan.php on line 115.
+ 1 APPPATH\Controllers\Dashboard\Admin\Laporan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "konidisi_sebelum"', 'APPPATH\\Controllers\\Dashboard\\Admin\\Laporan.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->returnSection()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:08:07 --> Undefined array key "batas_waktu"
+in APPPATH\Controllers\Dashboard\Admin\Laporan.php on line 122.
+ 1 APPPATH\Controllers\Dashboard\Admin\Laporan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batas_waktu"', 'APPPATH\\Controllers\\Dashboard\\Admin\\Laporan.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->returnSection()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:08:21 --> Undefined array key "konidisi"
+in APPPATH\Controllers\Dashboard\Admin\Laporan.php on line 118.
+ 1 APPPATH\Controllers\Dashboard\Admin\Laporan.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "konidisi"', 'APPPATH\\Controllers\\Dashboard\\Admin\\Laporan.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->returnSection()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:12:35 --> Undefined variable $user
+in APPPATH\Views\dashboard\admin\pinjaman-create.php on line 22.
+ 1 APPPATH\Views\dashboard\admin\pinjaman-create.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\dashboard\\admin\\pinjaman-create.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman-create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman-create', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(50): view('dashboard/admin/pinjaman-create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->create()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:13:11 --> Undefined variable $validation
+in APPPATH\Views\dashboard\admin\pinjaman-create.php on line 28.
+ 1 APPPATH\Views\dashboard\admin\pinjaman-create.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\dashboard\\admin\\pinjaman-create.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman-create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman-create', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(62): view('dashboard/admin/pinjaman-create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->create()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:13:27 --> Undefined variable $books
+in APPPATH\Views\dashboard\admin\pinjaman-create.php on line 33.
+ 1 APPPATH\Views\dashboard\admin\pinjaman-create.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $books', 'APPPATH\\Views\\dashboard\\admin\\pinjaman-create.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman-create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman-create', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(62): view('dashboard/admin/pinjaman-create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->create()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:14:30 --> Undefined array key "title"
+in APPPATH\Views\dashboard\admin\pinjaman-create.php on line 34.
+ 1 APPPATH\Views\dashboard\admin\pinjaman-create.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\admin\\pinjaman-create.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman-create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman-create', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(62): view('dashboard/admin/pinjaman-create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->create()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:22:59 --> Undefined variable $pinjaman
+in APPPATH\Views\dashboard\admin\pinjaman.php on line 204.
+ 1 APPPATH\Views\dashboard\admin\pinjaman.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pinjaman', 'APPPATH\\Views\\dashboard\\admin\\pinjaman.php', 204)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pinjaman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pinjaman', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Laporan.php(57): view('dashboard/admin/pinjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Laporan->pengembalian()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:35:41 --> syntax error, unexpected token "if", expecting ":"
+in APPPATH\Views\dashboard\admin\pengguna.php on line 48.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pengguna', [], true)
+ 3 APPPATH\Controllers\Dashboard\Admin\Pengguna.php(28): view('dashboard/admin/pengguna', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Pengguna->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Pengguna))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:35:54 --> Invalid file: templates/dashboard-template.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/dashboard-template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/dashboard-template', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pengguna', [], true)
+ 4 APPPATH\Controllers\Dashboard\Admin\Pengguna.php(28): view('dashboard/admin/pengguna', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Pengguna->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Pengguna))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:36:21 --> Undefined variable $title
+in APPPATH\Views\dashboard\admin\pengguna.php on line 5.
+ 1 APPPATH\Views\dashboard\admin\pengguna.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\dashboard\\admin\\pengguna.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pengguna.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pengguna', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Pengguna.php(33): view('dashboard/admin/pengguna')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Pengguna->anggota()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Pengguna))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:37:14 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Dashboard\Admin\Pengguna.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('dashboard/admin/pengguna/anggota')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('dashboard/admin/pengguna/anggota')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('dashboard/admin/pengguna/anggota')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:37:23 --> Undefined variable $title
+in APPPATH\Views\dashboard\admin\pengguna.php on line 5.
+ 1 APPPATH\Views\dashboard\admin\pengguna.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\dashboard\\admin\\pengguna.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pengguna.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pengguna', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Pengguna.php(33): view('dashboard/admin/pengguna')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Pengguna->anggota()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Pengguna))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:38:09 --> Undefined variable $members
+in APPPATH\Views\dashboard\admin\pengguna.php on line 28.
+ 1 APPPATH\Views\dashboard\admin\pengguna.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'APPPATH\\Views\\dashboard\\admin\\pengguna.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pengguna.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pengguna', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Pengguna.php(37): view('dashboard/admin/pengguna', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Pengguna->anggota()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Pengguna))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:38:54 --> Undefined array key "nisn"
+in APPPATH\Views\dashboard\admin\pengguna.php on line 34.
+ 1 APPPATH\Views\dashboard\admin\pengguna.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nisn"', 'APPPATH\\Views\\dashboard\\admin\\pengguna.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pengguna.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pengguna', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Pengguna.php(37): view('dashboard/admin/pengguna', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Pengguna->anggota()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Pengguna))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:39:04 --> Undefined array key "last_login"
+in APPPATH\Views\dashboard\admin\pengguna.php on line 34.
+ 1 APPPATH\Views\dashboard\admin\pengguna.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "last_login"', 'APPPATH\\Views\\dashboard\\admin\\pengguna.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pengguna.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pengguna', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Pengguna.php(37): view('dashboard/admin/pengguna', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Pengguna->anggota()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Pengguna))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 20:44:25 --> mysqli_sql_exception: Unknown column 'kelas.nama_kelas' in 'field list' in C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user`.*...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.*...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.*...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user`.*...', Array, false)
+#4 C:\laragon\www\Perpustakaan\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Perpustakaan\system\BaseModel.php(525): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\laragon\www\Perpustakaan\app\Controllers\Dashboard\Admin\Pengguna.php(54): CodeIgniter\BaseModel->find()
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Pengguna->admin()
+#8 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Pengguna))
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-13 20:44:25 --> Unknown column 'kelas.nama_kelas' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user`.*, `kelas`.`nama_kelas`
+FROM `user`
+WHERE `role` = \'admin\'
+AND `user`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.*, `kelas`.`nama_kelas`
+FROM `user`
+WHERE `role` = \'admin\'
+AND `user`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.*, `kelas`.`nama_kelas`
+FROM `user`
+WHERE `role` = \'admin\'
+AND `user`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user`.*, `kelas`.`nama_kelas`
+FROM `user`
+WHERE `role` = :role:
+AND `user`.`deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(525): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Dashboard\Admin\Pengguna.php(54): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Pengguna->admin()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Pengguna))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:44:37 --> Undefined array key "nama_kelas"
+in APPPATH\Views\dashboard\admin\pengguna.php on line 34.
+ 1 APPPATH\Views\dashboard\admin\pengguna.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kelas"', 'APPPATH\\Views\\dashboard\\admin\\pengguna.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pengguna.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pengguna', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Pengguna.php(55): view('dashboard/admin/pengguna', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Pengguna->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Pengguna))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:45:27 --> Undefined array key "last_login"
+in APPPATH\Views\dashboard\admin\pengguna.php on line 69.
+ 1 APPPATH\Views\dashboard\admin\pengguna.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "last_login"', 'APPPATH\\Views\\dashboard\\admin\\pengguna.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\pengguna.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/pengguna', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Pengguna.php(55): view('dashboard/admin/pengguna', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Pengguna->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Pengguna))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:56:02 --> Undefined variable $category
+in APPPATH\Views\dashboard\admin\kategori.php on line 23.
+ 1 APPPATH\Views\dashboard\admin\kategori.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'APPPATH\\Views\\dashboard\\admin\\kategori.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/kategori', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\MasterData.php(51): view('dashboard/admin/kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\MasterData->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\MasterData))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 20:57:56 --> date_create(): Passing null to parameter #1 ($datetime) of type string is deprecated
+in APPPATH\Views\dashboard\admin\kategori.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create(): Passing null to parameter #1 ($datetime) of type string is deprecated', 'APPPATH\\Views\\dashboard\\admin\\kategori.php', 27)
+ 2 APPPATH\Views\dashboard\admin\kategori.php(27): date_create(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\kategori.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/kategori', [], true)
+ 6 APPPATH\Controllers\Dashboard\Admin\MasterData.php(53): view('dashboard/admin/kategori', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\MasterData->kategori()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\MasterData))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:02:34 --> Invalid file: templates/dashboard-template.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/dashboard-template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/dashboard-template', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/kategori-create', [], true)
+ 4 APPPATH\Controllers\Dashboard\Admin\MasterData.php(41): view('dashboard/admin/kategori-create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\MasterData->kategori('create')
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\MasterData))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:04:44 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Dashboard\Admin\MasterData.php on line 66.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('dashboard/admin/masterdata/kategori/create')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('dashboard/admin/masterdata/kategori/create')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('dashboard/admin/masterdata/kategori/create')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:08:01 --> Undefined array key "category"
+in APPPATH\Controllers\Dashboard\Admin\MasterData.php on line 61.
+ 1 APPPATH\Controllers\Dashboard\Admin\MasterData.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'APPPATH\\Controllers\\Dashboard\\Admin\\MasterData.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\MasterData->kategori('delete')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\MasterData))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:12:52 --> Undefined variable $category
+in APPPATH\Views\dashboard\admin\kategori-edit.php on line 20.
+ 1 APPPATH\Views\dashboard\admin\kategori-edit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'APPPATH\\Views\\dashboard\\admin\\kategori-edit.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\kategori-edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/kategori-edit', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\MasterData.php(45): view('dashboard/admin/kategori-edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\MasterData->kategori('edit', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\MasterData))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:12:53 --> Undefined variable $category
+in APPPATH\Views\dashboard\admin\kategori-edit.php on line 20.
+ 1 APPPATH\Views\dashboard\admin\kategori-edit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'APPPATH\\Views\\dashboard\\admin\\kategori-edit.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\kategori-edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/kategori-edit', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\MasterData.php(45): view('dashboard/admin/kategori-edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\MasterData->kategori('edit', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\MasterData))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:25:05 --> Invalid file: dashboard/admin/buuku-create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/admin/buuku-create.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buuku-create', [], true)
+ 3 APPPATH\Controllers\Dashboard\Admin\Buku.php(47): view('dashboard/admin/buuku-create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->create()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:25:11 --> Invalid file: essential/breadcrumb.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('essential/breadcrumb.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('essential/breadcrumb', null, true)
+ 3 APPPATH\Views\dashboard\admin\buku-create.php(6): CodeIgniter\View\View->include('essential/breadcrumb')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku-create.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku-create', [], true)
+ 7 APPPATH\Controllers\Dashboard\Admin\Buku.php(47): view('dashboard/admin/buku-create', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->create()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:25:18 --> Undefined variable $category
+in APPPATH\Views\dashboard\admin\buku-create.php on line 26.
+ 1 APPPATH\Views\dashboard\admin\buku-create.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'APPPATH\\Views\\dashboard\\admin\\buku-create.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku-create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku-create', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Buku.php(47): view('dashboard/admin/buku-create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->create()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:25:28 --> Invalid file: templates/dashboard-template.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/dashboard-template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/dashboard-template', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku-create', [], true)
+ 4 APPPATH\Controllers\Dashboard\Admin\Buku.php(47): view('dashboard/admin/buku-create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->create()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:46:12 --> Undefined array key "title"
+in APPPATH\Views\dashboard\admin\buku.php on line 30.
+ 1 APPPATH\Views\dashboard\admin\buku.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\admin\\buku.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Buku.php(38): view('dashboard/admin/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:47:47 --> Undefined array key "nm_penerbit"
+in APPPATH\Views\dashboard\admin\buku.php on line 31.
+ 1 APPPATH\Views\dashboard\admin\buku.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_penerbit"', 'APPPATH\\Views\\dashboard\\admin\\buku.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Buku.php(39): view('dashboard/admin/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:47:55 --> Undefined array key "title"
+in APPPATH\Views\dashboard\admin\buku.php on line 51.
+ 1 APPPATH\Views\dashboard\admin\buku.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\admin\\buku.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Buku.php(39): view('dashboard/admin/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:49:08 --> Undefined array key "title"
+in APPPATH\Views\dashboard\admin\buku.php on line 59.
+ 1 APPPATH\Views\dashboard\admin\buku.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\dashboard\\admin\\buku.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Buku.php(39): view('dashboard/admin/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:49:24 --> Undefined array key "publisher"
+in APPPATH\Views\dashboard\admin\buku.php on line 64.
+ 1 APPPATH\Views\dashboard\admin\buku.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "publisher"', 'APPPATH\\Views\\dashboard\\admin\\buku.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Buku.php(39): view('dashboard/admin/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:49:36 --> Invalid file: templates/dashboard-template.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/dashboard-template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/dashboard-template', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku', [], true)
+ 4 APPPATH\Controllers\Dashboard\Admin\Buku.php(39): view('dashboard/admin/buku', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:52:33 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\admin\buku.php on line 30.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku', [], true)
+ 4 APPPATH\Controllers\Dashboard\Admin\Buku.php(63): view('dashboard/admin/buku', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:52:51 --> Undefined variable $kategori
+in APPPATH\Views\dashboard\admin\buku-edit.php on line 32.
+ 1 APPPATH\Views\dashboard\admin\buku-edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\dashboard\\admin\\buku-edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku-edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku-edit', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Buku.php(63): view('dashboard/admin/buku-edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:53:13 --> Undefined variable $kategori
+in APPPATH\Views\dashboard\admin\buku-edit.php on line 32.
+ 1 APPPATH\Views\dashboard\admin\buku-edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\dashboard\\admin\\buku-edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku-edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku-edit', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Buku.php(67): view('dashboard/admin/buku-edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:53:15 --> Undefined variable $kategori
+in APPPATH\Views\dashboard\admin\buku-edit.php on line 32.
+ 1 APPPATH\Views\dashboard\admin\buku-edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\dashboard\\admin\\buku-edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku-edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku-edit', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Buku.php(67): view('dashboard/admin/buku-edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:53:15 --> Undefined variable $kategori
+in APPPATH\Views\dashboard\admin\buku-edit.php on line 32.
+ 1 APPPATH\Views\dashboard\admin\buku-edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\dashboard\\admin\\buku-edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku-edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku-edit', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Buku.php(67): view('dashboard/admin/buku-edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 21:53:16 --> Undefined variable $kategori
+in APPPATH\Views\dashboard\admin\buku-edit.php on line 32.
+ 1 APPPATH\Views\dashboard\admin\buku-edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\dashboard\\admin\\buku-edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\admin\\buku-edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard/admin/buku-edit', [], true)
+ 5 APPPATH\Controllers\Dashboard\Admin\Buku.php(67): view('dashboard/admin/buku-edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard\Admin\Buku->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Admin\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
