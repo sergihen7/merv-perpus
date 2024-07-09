@@ -4,7 +4,7 @@ This was made in 2022-2023, uses an old version of the CodeIgniter framework, an
 
 # Peringatan
 
-Ini dibuat pada tahun 2022-2023 menggunakan framework CodeIgniter versi lawas, dan saya buat hanya sebagai bahan pembelajaran. ( Tidak cocok untuk produksi. ) Pembaruan terakhir: 2024 (Saya hanya ingin menyelesaikan apa yang belum saya selesaikan)
+Ini dibuat pada tahun 2022-2023 menggunakan framework CodeIgniter versi lawas, dan saya buat hanya sebagai bahan pembelajaran. ( Kurang cocok untuk produksi. ) Pembaruan terakhir: 2024 (Saya hanya ingin menyelesaikan apa yang belum saya selesaikan)
 
 ## Features
 
