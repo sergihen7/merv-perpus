@@ -48,12 +48,5 @@
   </table>
 </div>
 
-<script>
-  function onImage() {
-    const images = document.querySelector('#images');
-    const [imagesFile] = document.querySelector('#fileImage').files;
-    images.src = URL.createObjectURL(imagesFile);
-  }
-</script>
 
 <?= $this->endSection(); ?>

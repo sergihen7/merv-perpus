@@ -33,7 +33,7 @@
       <div class="mb-3">
         <div class="card">
           <div class="card-body">
-            <img src="<?= base_url('img/web/' . $app['foto']); ?>" class="d-block mx-auto m-3" alt="Profile.Pic" style="max-width: 140px;" id="images">
+            <img src="<?= base_url('img/web/' . $app['foto']); ?>" class="d-block mx-auto m-3" alt="<?= $app["nama_app"] ?> foto" style="max-width: 140px;" id="images">
             <input class="form-control" type="file" name="img" id="fileImage" onchange="onImage()">
           </div>
           <div class="card-footer">
@@ -44,7 +44,7 @@
       <div class="mb-3">
         <div class="card">
           <div class="card-body">
-            <img src="<?= base_url('img/web/' . $app['logo']); ?>" class="d-block mx-auto m-3" alt="Profile.Pic" style="max-width: 140px;" id="images">
+            <img src="<?= base_url('img/web/' . $app['logo']); ?>" class="d-block mx-auto m-3" alt="<?= $app["nama_app"] ?> logo" style="max-width: 140px;" id="images">
             <input class="form-control" type="file" name="img" id="fileImage" onchange="onImage()">
           </div>
           <div class="card-footer">
@@ -55,5 +55,13 @@
     </div>
   </div>
 </form>
+
+<script>
+  function onImage() {
+    const images = document.querySelector('#images');
+    const [imagesFile] = document.querySelector('#fileImage').files;
+    images.src = URL.createObjectURL(imagesFile);
+  }
+</script>
 
 <?= $this->endSection(); ?>
