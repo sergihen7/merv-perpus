@@ -329,7 +329,7 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`id`, `username`, `password`, `email`, `fullname`, `nis`, `kelas`, `foto`, `alamat`, `verif`, `role`, `created_at`, `updated_at`, `deleted_at`) VALUES
 (1, 'sergi', '$2y$10$YZu2m5yNc79m0WRwa2WVyOzoNeJgM0VFh0Ww97ZYJv96JARHNK1Ku', 'test@gmail.com', 'sergi sultan', '0104', 2, '1676355299_8096e552e9ddaa424d21.jpg', '', '1', 'anggota', '2023-02-12 21:59:25', '2023-02-14 00:14:59', NULL),
 (4, 'sergihen', '$2y$10$pUHF/CmCy0UMfYEbjZ7KcuDHsx2wucNWbaqUsKSSAOHE2ZKHuibhW', 'sergihe@test.com', 'sergihen', NULL, NULL, 'Default.jpg', NULL, '1', 'anggota', '2023-02-13 01:53:11', '2023-02-13 01:53:11', NULL),
-(5, 'Admin', '$2y$10$.mbOGadVw.VIuiJccA00U.XkXVE3wN0Grsfegdl2roqcVsPkfSHVu', 'Admin@email.com', 'Admin', NULL, NULL, 'Default.jpg', 'Jalan', '1', 'admin', '2023-02-13 18:33:23', '2023-02-13 19:05:03', NULL),
+(5, 'Admin', '$2y$10$q4/UIJ/QKGzCqiNTGxoSFOMLrZ4lqS0IXMrf92yl8dgItSyyapyKG', 'Admin@email.com', 'Admin', NULL, NULL, 'Default.jpg', 'Jalan', '1', 'admin', '2023-02-13 18:33:23', '2023-02-13 19:05:03', NULL),
 
 --
 -- Indexes for dumped tables
