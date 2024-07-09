@@ -157,7 +157,7 @@
 
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('dashboard/anggota'); ?>"><i class="bi bi-info-lg"></i> Pemberitahuan</a>
+        <a class="nav-link" href="<?= base_url('dashboard/anggota/notif'); ?>"><i class="bi bi-info-lg"></i> Pemberitahuan</a>
       </li>
 
       <li class="nav-item">

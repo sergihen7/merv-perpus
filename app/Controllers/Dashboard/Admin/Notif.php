@@ -20,7 +20,7 @@ class Notif extends \App\Controllers\BaseController
     ];
 
     $data['notif'] = $this->notifM
-      ->whereIn('level_akses', ['0', '1', '2'])
+      ->whereIn('level_akses', ['0', '2'])
       ->where('status', '1')
       ->find();
 

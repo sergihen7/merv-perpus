@@ -32,6 +32,7 @@ class Home extends \App\Controllers\BaseController
             'notif' => $this->notifM
                 ->whereIn('level_akses', ['0', '1'])
                 ->where('status', '1')
+                ->orderBy('updated_at', 'DESC')
                 ->find(),
         ];
 
