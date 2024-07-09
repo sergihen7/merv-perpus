@@ -16,11 +16,11 @@
       </li>
 
       <li class="nav-item-divider">
-        <a class="nav-link">Menus</a>
+        <a class="nav-link">Menu</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url("dashboard/admin"); ?>"><i class="bi bi-house-fill"></i> Home</a>
+        <a class="nav-link" href="<?= base_url("dashboard/admin"); ?>"><i class="bi bi-house-fill"></i> Beranda</a>
       </li>
 
       <li class="nav-item">
@@ -73,45 +73,45 @@
       </div>
 
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="bi bi-layers-fill"></i> Catalog books</a>
+        <a class="nav-link" href="<?= base_url('dashboard/admin/buku/k'); ?>"><i class="bi bi-layers-fill"></i> Katalog Buku</a>
       </li>
 
       <li class="nav-item-divider">
-        <a class="nav-link">Etc</a>
+        <a class="nav-link">Lain-lain</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="bi bi-gear-fill"></i> Application Settings</a>
+        <a class="nav-link" href="<?= base_url('dashboard/admin/setting') ?>"><i class="bi bi-gear-fill"></i> Setelan Aplikasi</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="bi bi-info-lg"></i> Notification</a>
+        <a class="nav-link" href="<?= base_url('dashboard/admin/notif') ?>"><i class="bi bi-info-lg"></i> Pemberitahuan</a>
       </li>
       <li class="nav-item">
         <div class="nav-link d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#msg" aria-expanded="false" aria-controls="collapseExample">
-          <p class="m-0"><i class="bi bi-envelope-fill"></i> Message <?= ($pesan_ttl == 0) ? '' : '<span class="badge text-bg-danger">' . $pesan_ttl . '</span>'; ?></p>
+          <p class="m-0"><i class="bi bi-envelope-fill"></i> Pesan <?= ($pesan_ttl == 0) ? '' : '<span class="badge text-bg-danger">' . $pesan_ttl . '</span>'; ?></p>
           <i class="bi bi-caret-down-fill"></i>
         </div>
       </li>
       <div class="collapse" id="msg">
         <ul class="navbar-nav ps-2">
           <li class="nav-item">
-            <a href="<?= base_url('dashboard/pesan'); ?>" class="nav-link" style="font-size: 14px;">Inbox <?= ($pesan_ttl == 0) ? '' : '<span class="badge text-bg-danger">' . $pesan_ttl . '</span>'; ?></a>
+            <a href="<?= base_url('dashboard/pesan'); ?>" class="nav-link" style="font-size: 14px;">Pesan masuk <?= ($pesan_ttl == 0) ? '' : '<span class="badge text-bg-danger">' . $pesan_ttl . '</span>'; ?></a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url('dashboard/pesan/terkirim'); ?>" class="nav-link" style="font-size: 14px;">Sent</a>
+            <a href="<?= base_url('dashboard/pesan/terkirim'); ?>" class="nav-link" style="font-size: 14px;">Terkirim</a>
           </li>
         </ul>
       </div>
 
       <li class="nav-item-divider">
-        <a class="nav-link">Next</a>
+        <a class="nav-link">Lanjutan</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('dashboard/profile'); ?>"><i class="bi bi-person-circle"></i> Account Settings</a>
+        <a class="nav-link" href="<?= base_url('dashboard/profile'); ?>"><i class="bi bi-person-circle"></i> Setelan Akun</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('auth/logout'); ?>"><i class="bi bi-door-open-fill"></i> Log-out</a>
+        <a class="nav-link" href="<?= base_url('auth/logout'); ?>"><i class="bi bi-door-open-fill"></i> Keluar</a>
       </li>
 
     </ul>
@@ -138,54 +138,54 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('dashboard/anggota'); ?>"><i class="bi bi-house-fill"></i> Home</a>
+        <a class="nav-link" href="<?= base_url('dashboard/anggota'); ?>"><i class="bi bi-house-fill"></i> Beranda</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('dashboard/anggota/buku/k'); ?>"><i class="bi bi-layers-fill"></i> Catalog books</a>
+        <a class="nav-link" href="<?= base_url('dashboard/anggota/buku/k'); ?>"><i class="bi bi-layers-fill"></i> Katalog Buku</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('dashboard/anggota/buku/pinjaman'); ?>"><i class="bi bi-bookmark-fill"></i> Borrowed Books</a>
+        <a class="nav-link" href="<?= base_url('dashboard/anggota/buku/pinjaman'); ?>"><i class="bi bi-bookmark-fill"></i> Laporan Pinjaman</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('dashboard/anggota/buku/histori'); ?>"><i class="bi bi-clock-history"></i> History</a>
+        <a class="nav-link" href="<?= base_url('dashboard/anggota/buku/histori'); ?>"><i class="bi bi-clock-history"></i> Histori</a>
       </li>
 
       <li class="nav-item-divider">
-        <a class="nav-link">Etc</a>
+        <a class="nav-link">Lain-lain</a>
       </li>
 
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('dashboard/anggota'); ?>"><i class="bi bi-info-lg"></i> Notification</a>
+        <a class="nav-link" href="<?= base_url('dashboard/anggota'); ?>"><i class="bi bi-info-lg"></i> Pemberitahuan</a>
       </li>
 
       <li class="nav-item">
         <div class="nav-link d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#report" aria-expanded="false" aria-controls="collapseExample">
-          <p class="m-0"><i class="bi bi-envelope-fill"></i> Message <?= ($pesan_ttl == 0) ? '' : '<span class="badge text-bg-danger">' . $pesan_ttl . '</span>'; ?></p>
+          <p class="m-0"><i class="bi bi-envelope-fill"></i> Pesan <?= ($pesan_ttl == 0) ? '' : '<span class="badge text-bg-danger">' . $pesan_ttl . '</span>'; ?></p>
           <i class="bi bi-caret-down-fill"></i>
         </div>
       </li>
       <div class="collapse" id="report">
         <ul class="navbar-nav ps-2">
           <li class="nav-item">
-            <a href="<?= base_url('dashboard/pesan'); ?>" class="nav-link" style="font-size: 14px;">Inbox <?= ($pesan_ttl == 0) ? '' : '<span class="badge text-bg-danger">' . $pesan_ttl . '</span>'; ?></a>
+            <a href="<?= base_url('dashboard/pesan'); ?>" class="nav-link" style="font-size: 14px;">Pesan masuk <?= ($pesan_ttl == 0) ? '' : '<span class="badge text-bg-danger">' . $pesan_ttl . '</span>'; ?></a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url('dashboard/pesan/terkirim'); ?>" class="nav-link" style="font-size: 14px;">Sent</a>
+            <a href="<?= base_url('dashboard/pesan/terkirim'); ?>" class="nav-link" style="font-size: 14px;">Terkirim</a>
           </li>
         </ul>
       </div>
 
       <li class="nav-item-divider">
-        <a class="nav-link">Next</a>
+        <a class="nav-link">Lanjutan</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('dashboard/profile'); ?>"><i class="bi bi-person-circle"></i> Account Settings</a>
+        <a class="nav-link" href="<?= base_url('dashboard/profile'); ?>"><i class="bi bi-person-circle"></i> Setelan Akun</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('auth/logout'); ?>"><i class="bi bi-door-open-fill"></i> Log-out</a>
+        <a class="nav-link" href="<?= base_url('auth/logout'); ?>"><i class="bi bi-door-open-fill"></i> Keluar</a>
       </li>
 
     </ul>

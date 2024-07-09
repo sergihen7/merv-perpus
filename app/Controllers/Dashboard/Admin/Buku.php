@@ -102,4 +102,37 @@ class Buku extends \App\Controllers\BaseController
     session()->setFlashdata('system', 'Data Buku Tersimpan');
     return redirect()->to('dashboard/admin/buku/');
   }
+
+  public function k($c = NULL)
+  {
+    $data = [
+      'title'      => 'Katalog Buku',
+      'app'        => $this->app,
+      'user_login' => $this->user_login,
+      'pesan_ttl'  => $this->pesan_total,
+      'kategori'   => $this->kategoriM->find(),
+    ];
+
+    if ($c == NULL) {
+      $data['buku'] = $this->bukuM
+        ->select('buku.*, pengarang.pengarang, kategori.kategori, rak.rak, penerbit.penerbit')
+        ->join('pengarang', 'pengarang.id = buku.pengarang')
+        ->join('kategori', 'kategori.id = buku.kategori')
+        ->join('rak', 'rak.id = buku.rak')
+        ->join('penerbit', 'penerbit.id = buku.penerbit')
+        ->find();
+    } else {
+      $kategori = $this->kategoriM->where('kategori', $c)->first();
+      $data['buku'] = $this->bukuM
+        ->select('buku.*, pengarang.pengarang, kategori.kategori, rak.rak, penerbit.penerbit')
+        ->join('pengarang', 'pengarang.id = buku.pengarang')
+        ->join('kategori', 'kategori.id = buku.kategori')
+        ->join('rak', 'rak.id = buku.rak')
+        ->join('penerbit', 'penerbit.id = buku.penerbit')
+        ->where('buku.kategori', $kategori['id'])
+        ->find();
+    }
+
+    return view('dashboard/anggota/catalog', $data);
+  }
 }

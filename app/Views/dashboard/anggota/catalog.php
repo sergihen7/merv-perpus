@@ -32,7 +32,7 @@
   </div>
 <?php endif; ?>
 
-<a href="<?= base_url('dashboard/anggota/buku/k/') ?>" type="button" class="btn btn-secondary btn-sm rounded-pill mb-3">ALL</a>
+<a href="<?= base_url('dashboard/anggota/buku/k/') ?>" type="button" class="btn btn-secondary btn-sm rounded-pill mb-3">Semua</a>
 <?php foreach ($kategori as $k) : ?>
   <a href="<?= base_url('dashboard/anggota/buku/k/' . $k['kategori']) ?>" type="button" class="btn btn-secondary btn-sm rounded-pill mb-3"><?= $k['kategori']; ?></a>
 <?php endforeach; ?>
