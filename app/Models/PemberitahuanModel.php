@@ -10,6 +10,6 @@ class PemberitahuanModel extends Model
   protected $primaryKey = 'id';
   protected $useAutoIncrement = true;
   protected $useSoftDeletes = true;
-  protected $allowedFields = [];
+  protected $allowedFields = ["judul", "isi", "level_akses", "status"];
   protected $useTimestamps = true;
 }

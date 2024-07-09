@@ -33,12 +33,14 @@
           <td><?= $dat['judul']; ?></td>
           <td><?= $dat['isi']; ?></td>
           <td><?= $dat['updated_at']; ?></td>
-          <td class="d-flex gap-1">
-            <a href="<?= base_url('dashboard/admin/buku/edit/' . $dat['id']); ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-pencil-fill"></i></a>
-            <form action="<?= base_url("dashboard/admin/buku/delete"); ?>" method="POST">
-              <input type="hidden" value="<?= $dat['id']; ?>" name="id">
-              <button type="submit" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></button>
-            </form>
+          <td>
+            <div class="d-flex gap-2">
+              <a href="<?= base_url('dashboard/admin/notif/edit/' . $dat['id']); ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-pencil-fill"></i></a>
+              <form action="<?= base_url("dashboard/admin/buku/delete"); ?>" method="POST">
+                <input type="hidden" value="<?= $dat['id']; ?>" name="id">
+                <button type="submit" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></button>
+              </form>
+            </div>
           </td>
         </tr>
       <?php endforeach; ?>

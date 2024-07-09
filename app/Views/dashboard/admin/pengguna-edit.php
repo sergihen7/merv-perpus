@@ -12,7 +12,7 @@
 <?php endif; ?>
 
 <div class="card card-body rounded-0" style="max-width: 30rem;">
-  <form method="POST" action="<?= base_url('dashboard/users/save'); ?>">
+  <form method="POST" action="<?= base_url('dashboard/admin/pengguna/save'); ?>">
     <?= csrf_field(); ?>
     <input type="hidden" name="id" value="<?= $user_edit['id']; ?>">
     <div class="mb-3">
