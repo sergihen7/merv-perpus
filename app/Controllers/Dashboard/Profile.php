@@ -45,7 +45,7 @@ class Profile extends \App\Controllers\BaseController
       $save['kelas'] = $form['kelas'];
     }
     if (isset($form['password'])) {
-      $save['password'] = password_hash($form['password'], PASSWORD_BCRYPT);
+      $save['password'] = password_hash($form['password'], PASSWORD_DEFAULT);
     }
 
     if ($img->getError() !== 4) {
