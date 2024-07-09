@@ -88,26 +88,26 @@ class Pengguna extends \App\Controllers\BaseController
     if (isset($data['id'])) {
       $user = $this->userM->where(['id' => $data['id']])->first();
 
-      if ($user['username'] == $data['username']) {
-        $valid = 'required';
-      } else {
-        $valid = 'required|is_unique[user.username]';
-      }
       $valid = [
-        'username' => $valid,
         'email'    => 'required',
         'role'     => 'required',
         'fullname' => 'required',
       ];
+      if (strtolower($user['username']) == strtolower($data['username'])) {
+        $valid['username'] = 'required';
+      } else {
+        $valid['username'] = 'required|is_unique[user.username]';
+      }
 
       $save = [
         'id'       => $data['id'],
         'username' => $data['username'],
+        'fullname' => $data['fullname'],
         'email'    => $data['email'],
         'role'     => $data['role'],
       ];
 
-      $redirect = "dashboard/users/edit/$data[id]";
+      $redirect = "dashboard/admin/pengguna/edit/$data[id]";
     } else {
       $valid = [
         'username' => 'required|is_unique[user.username]',
@@ -118,12 +118,13 @@ class Pengguna extends \App\Controllers\BaseController
 
       $save = [
         'username' => $data['username'],
+        'fullname' => $data['fullname'],
         'password' => $data['password'],
         'email'    => $data['email'],
         'role'     => $data['role'],
       ];
 
-      $redirect = "dashboard/users/create";
+      $redirect = "dashboard/admin/pengguna/create";
     }
 
     if (!$this->validate($valid)) {

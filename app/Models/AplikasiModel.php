@@ -10,6 +10,6 @@ class AplikasiModel extends Model
   protected $primaryKey = 'id';
   protected $useAutoIncrement = true;
   protected $useSoftDeletes = true;
-  protected $allowedFields = [];
+  protected $allowedFields = ["nama_app", "foto", "logo", "alamat_app", "email_app", "nomor_hp", "copyright"];
   protected $useTimestamps = true;
 }

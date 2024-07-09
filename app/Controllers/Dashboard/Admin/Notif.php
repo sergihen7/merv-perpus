@@ -40,6 +40,30 @@ class Notif extends \App\Controllers\BaseController
     return view('dashboard/admin/notif-create', $data);
   }
 
+  public function edit($id)
+  {
+    function br2nl($input)
+    {
+      return preg_replace('/<br\s?\/?>/ius', "\n", str_replace("\n", "", str_replace("\r", "", htmlspecialchars_decode($input))));
+    }
+
+    $data = [
+      'title'      => 'Edit Pemberitahuan',
+      'app'        => $this->app,
+      'user_login' => $this->user_login,
+      'pesan_ttl'  => $this->pesan_total,
+      'validation' => \Config\Services::validation()
+    ];
+
+    $data['notif'] = $this->notifM
+      ->where('id', $id)
+      ->first();
+
+    $data['notif']['isi'] = br2nl($data['notif']['isi']);
+
+    return view('dashboard/admin/notif-edit', $data);
+  }
+
   public function save()
   {
     if (!$this->validate([
