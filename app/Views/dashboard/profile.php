@@ -76,7 +76,7 @@
       <div class="col">
         <div class="mb-3">
           <label class="form-label">Password</label>
-          <input type="text" class="form-control rounded-0 my-input" placeholder="Password Not Change" name="password">
+          <input type="password" class="form-control rounded-0 my-input" placeholder="Password Not Change" name="password">
         </div>
       </div>
     </div>

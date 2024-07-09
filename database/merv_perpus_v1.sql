@@ -328,10 +328,8 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `username`, `password`, `email`, `fullname`, `nis`, `kelas`, `foto`, `alamat`, `verif`, `role`, `created_at`, `updated_at`, `deleted_at`) VALUES
 (1, 'sergi', '$2y$10$YZu2m5yNc79m0WRwa2WVyOzoNeJgM0VFh0Ww97ZYJv96JARHNK1Ku', 'test@gmail.com', 'sergi sultan', '0104', 2, '1676355299_8096e552e9ddaa424d21.jpg', '', '1', 'anggota', '2023-02-12 21:59:25', '2023-02-14 00:14:59', NULL),
-(4, 'sergihen', '$2y$10$8cCiG3DOYzrcgzMMBBDVguwCeO1vqZI8nznpyhd9w.sO1BesKRRSS', 'sergihe@test.com', 'sergihen', NULL, NULL, 'Default.jpg', NULL, '1', 'anggota', '2023-02-13 01:53:11', '2023-02-13 01:53:11', NULL),
-(5, 'Admin', '$2y$10$HygmvibVRRFg1aH2j1rLpeoNMZXOvVSOq2ve9nEECLw7O4yXYol/6', 'Admin@email.com', 'Admin', NULL, NULL, 'Default.jpg', 'Jalan', '1', 'admin', '2023-02-13 18:33:23', '2023-02-13 19:05:03', NULL),
-(7, 'test', '123', '123', 'testtt', 'test', 2, NULL, 'condet', '1', 'anggota', '2023-02-14 13:12:22', '2023-02-14 13:12:22', NULL),
-(8, 'egi12', '$2y$10$tOD1qYAnV.HeUSQUXUtj9.z7TbQtDdetjM6po/h8AfdFaaoAFggim', 'egi@gmail.com', 'egi12', NULL, NULL, 'Default.jpg', NULL, '0', 'anggota', '2023-02-14 00:14:09', '2023-02-14 00:14:09', NULL);
+(4, 'sergihen', '$2y$10$pUHF/CmCy0UMfYEbjZ7KcuDHsx2wucNWbaqUsKSSAOHE2ZKHuibhW', 'sergihe@test.com', 'sergihen', NULL, NULL, 'Default.jpg', NULL, '1', 'anggota', '2023-02-13 01:53:11', '2023-02-13 01:53:11', NULL),
+(5, 'Admin', '$2y$10$.mbOGadVw.VIuiJccA00U.XkXVE3wN0Grsfegdl2roqcVsPkfSHVu', 'Admin@email.com', 'Admin', NULL, NULL, 'Default.jpg', 'Jalan', '1', 'admin', '2023-02-13 18:33:23', '2023-02-13 19:05:03', NULL),
 
 --
 -- Indexes for dumped tables
