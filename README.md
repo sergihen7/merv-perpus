@@ -30,7 +30,7 @@ Member
 username: sergihen
 password: anggota
 
-admin
+Admin
 username: admin
 password: admin
 ```
