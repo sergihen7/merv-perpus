@@ -1,10 +1,10 @@
 # Peringatan
 
-Ini dibuat pada tahun 2022-2023 menggunakan framework CodeIgniter versi lawas, dan saya buat hanya sebagai bahan pembelajaran. ( Kurang cocok untuk produksi. ) Pembaruan terakhir: 2024 (Saya hanya ingin menyelesaikan apa yang belum saya selesaikan)
+Ini dibuat pada tahun 2022-2023 menggunakan framework CodeIgniter versi lawas (4.2.12), dan saya buat hanya sebagai bahan pembelajaran. ( Kurang cocok untuk produksi. ) Pembaruan terakhir: 2024 (Saya hanya ingin menyelesaikan apa yang belum saya selesaikan)
 
 # Warning
 
-This was made in 2022-2023, uses an old version of the CodeIgniter framework, and was created by me only as learning material. ( Not suitable for production. ) last update: 2024 (I just finishing some things that weren't finished before)
+This was made in 2022-2023, uses an old version of the CodeIgniter framework (4.2.12), and was created by me only as learning material. ( Not suitable for production. ) last update: 2024 (I just finishing some things that weren't finished before)
 
 ## Features
 
