@@ -10,6 +10,6 @@ class UserModel extends Model
   protected $primaryKey = 'id';
   protected $useAutoIncrement = true;
   protected $useSoftDeletes = true;
-  protected $allowedFields = ['username', 'nis', 'password', 'foto', 'email', 'fullname', 'kelas', 'alamat', 'verif', 'role'];
+  protected $allowedFields = ['username', 'nis', 'password', 'foto', 'email', 'fullname', 'alamat', 'verif', 'role'];
   protected $useTimestamps = true;
 }

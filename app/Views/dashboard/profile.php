@@ -44,28 +44,6 @@
         </div>
       </div>
     </div>
-    <?php if ($user_login['role'] == 'anggota') : ?>
-      <div class="row rows-col-2">
-        <div class="col">
-          <div class="mb-3">
-            <label class="form-label">NIS</label>
-            <input type="text" class="form-control rounded-0 my-input" value="<?= $user_login['nis']; ?>" name="nis">
-          </div>
-        </div>
-        <div class="col">
-          <div class="mb-3">
-            <label class="form-label">Kelas</label>
-            <select name="kelas" id="" class="form-control">
-              <option value="" disabled selected>-- Pilih Kelas --</option>
-              <?php foreach ($kelas as $k) : ?>
-                <option value="<?= $k['id']; ?>" <?= ($user_login['kelas'] == $k['id']) ? 'selected' : ''; ?>><?= $k['nama_kelas']; ?></option>
-              <?php endforeach; ?>
-            </select>
-          </div>
-        </div>
-      </div>
-
-    <?php endif; ?>
     <div class="row rows-col-2">
       <div class="col">
         <div class="mb-3">

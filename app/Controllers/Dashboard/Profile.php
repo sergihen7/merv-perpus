@@ -5,11 +5,9 @@ namespace App\Controllers\Dashboard;
 class Profile extends \App\Controllers\BaseController
 {
   protected $userM;
-  protected $kelasM;
   public function __construct()
   {
     $this->userM = new \App\Models\UserModel();
-    $this->kelasM = new \App\Models\KelasModel();
   }
 
   public function index()
@@ -20,7 +18,6 @@ class Profile extends \App\Controllers\BaseController
       'app'        => $this->app,
       'user_login' => $this->user_login,
       'pesan_ttl'  => $this->pesan_total,
-      'kelas'      => $this->kelasM->find(),
     ];
 
     if (empty($form)) {
@@ -38,12 +35,6 @@ class Profile extends \App\Controllers\BaseController
       'alamat'   => $form['alamat'],
     ];
 
-    if (isset($form['nis'])) {
-      $save['nis'] = $form['nis'];
-    }
-    if (isset($form['kelas'])) {
-      $save['kelas'] = $form['kelas'];
-    }
     if (isset($form['password'])) {
       $save['password'] = password_hash($form['password'], PASSWORD_DEFAULT);
     }
