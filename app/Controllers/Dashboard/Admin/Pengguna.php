@@ -25,8 +25,7 @@ class Pengguna extends \App\Controllers\BaseController
     ];
 
     $data['anggota'] = $this->userM
-      ->select('user.*, kelas.nama_kelas')
-      ->join('kelas', 'kelas.id = user.kelas', 'left')
+      ->select('user.*')
       ->where('role', 'anggota')
       ->find();
 

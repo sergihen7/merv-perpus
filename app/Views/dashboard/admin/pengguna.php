@@ -14,9 +14,7 @@
           <th scope="col">No.</th>
           <th scope="col">Username</th>
           <th scope="col">Nama Panjang</th>
-          <th scope="col">NIS</th>
           <th scope="col">Email</th>
-          <th scope="col">Kelas</th>
           <th scope="col">Mendaftar Tanggal</th>
           <th scope="col">Ket</th>
         </tr>
@@ -29,9 +27,7 @@
             <th scope="row"><?= $num++; ?></th>
             <td><?= $a['username']; ?></td>
             <td><?= $a['fullname']; ?></td>
-            <td><?= $a['nis']; ?></td>
             <td><?= $a['email']; ?></td>
-            <td><?= $a['nama_kelas']; ?></td>
             <td><?= $a['created_at']; ?></td>
             <td>
               <button type="button" onclick="msgOpen('<?= $a['username']; ?>')" class="btn btn-sm btn-success rounded-0"><i class="bi bi-envelope-fill"></i></button>
