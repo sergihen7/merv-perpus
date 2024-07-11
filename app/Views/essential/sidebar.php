@@ -41,16 +41,16 @@
             <a href="<?= base_url("dashboard/admin/buku/"); ?>" class="nav-link" style="font-size: 14px;">Buku</a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url("dashboard/admin/masterdata/"); ?>" class="nav-link" style="font-size: 14px;">Rak Buku</a>
+            <a href="<?= base_url("dashboard/admin/masterdata/rak_buku"); ?>" class="nav-link" style="font-size: 14px;">Rak Buku</a>
           </li>
           <li class="nav-item">
             <a href="<?= base_url("dashboard/admin/masterdata/kategori"); ?>" class="nav-link" style="font-size: 14px;">Kategori</a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url("dashboard/admin/masterdata/"); ?>" class="nav-link" style="font-size: 14px;">Pengarang</a>
+            <a href="<?= base_url("dashboard/admin/masterdata/pengarang"); ?>" class="nav-link" style="font-size: 14px;">Pengarang</a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url("dashboard/admin/masterdata/"); ?>" class="nav-link" style="font-size: 14px;">Penerbit</a>
+            <a href="<?= base_url("dashboard/admin/masterdata/penerbit"); ?>" class="nav-link" style="font-size: 14px;">Penerbit</a>
           </li>
         </ul>
       </div>
