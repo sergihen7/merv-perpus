@@ -11,7 +11,7 @@
 
 <?php endif; ?>
 
-<form class="row row-cols-1 row-cols-md-2 g-4" method="POST" action="<?= base_url('dashboard/admin/buku/save'); ?>">
+<form class="row row-cols-1 row-cols-lg-2 g-4" method="POST" action="<?= base_url('dashboard/admin/buku/save'); ?>">
 
   <div class="col">
     <div class="card card-body rounded-0">
