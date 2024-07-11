@@ -7,12 +7,14 @@ class MasterData extends \App\Controllers\BaseController
   protected $bukuM;
   protected $rakM;
   protected $kategoriM;
+  protected $pengarangM;
 
   public function __construct()
   {
     $this->bukuM  = new \App\Models\BukuModel();
     $this->kategoriM = new \App\Models\KategoriModel();
     $this->rakM = new \App\Models\RakModel();
+    $this->pengarangM = new \App\Models\PengarangModel();
   }
 
   public function index()
@@ -122,5 +124,53 @@ class MasterData extends \App\Controllers\BaseController
     $this->rakM->save($val);
     session()->setFlashdata('system', 'Rak Buku Tersimpan');
     return redirect()->to('dashboard/admin/masterdata/rak_buku');
+  }
+
+  public function pengarang($index = NULL, $id = NULL)
+  {
+    $data = [
+      'title'      => 'Pengarang',
+      'app'        => $this->app,
+      'user_login' => $this->user_login,
+      'pesan_ttl'  => $this->pesan_total,
+      'pengarang'   => $this->pengarangM->find(),
+    ];
+
+    if ($index !== NULL) {
+      switch ($index) {
+        case 'create':
+          return view('dashboard/admin/pengarang-create', $data);
+          break;
+        case 'edit':
+          $data['pengarang'] = $this->pengarangM->find($id);
+          return view('dashboard/admin/pengarang-edit', $data);
+          break;
+        case 'delete':
+          $form = $this->request->getPost();
+          if (!empty($form)) {
+            $this->pengarangM->delete($form['id']);
+          }
+          return redirect()->to('dashboard/admin/masterdata/pengarang');
+          break;
+      }
+    }
+
+    $form = $this->request->getPost();
+
+    if (empty($form)) {
+      return view('dashboard/admin/pengarang', $data);
+    }
+
+    $val = [
+      'pengarang' => $form['pengarang'],
+    ];
+
+    if (isset($form['id'])) {
+      $val['id'] = $form['id'];
+    }
+
+    $this->pengarangM->save($val);
+    session()->setFlashdata('system', 'Pengarang Tersimpan');
+    return redirect()->to('dashboard/admin/masterdata/pengarang');
   }
 }
