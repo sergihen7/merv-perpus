@@ -4,7 +4,7 @@
 
 <h1><?= $title; ?></h1>
 
-<a href="<?= base_url("dashboard/admin/masterdata/rak_buku/create"); ?>" class="btn btn-primary rounded-0 mb-3"><i class="bi bi-plus-lg"></i> Tambah</a>
+<a href="<?= base_url("dashboard/admin/masterdata/penerbit/create"); ?>" class="btn btn-primary rounded-0 mb-3"><i class="bi bi-plus-lg"></i> Tambah</a>
 
 <?php if (session()->has('system')) : ?>
   <div class="alert alert-success" role="alert">
@@ -18,7 +18,8 @@
     <thead class="table-dark">
       <tr>
         <th scope="col">No.</th>
-        <th scope="col">Rak</th>
+        <th scope="col">Penerbit</th>
+        <th scope="col">Kode Penerbit</th>
         <th scope="col">Dibuat Tgl</th>
         <th scope="col">Ket</th>
       </tr>
@@ -26,14 +27,15 @@
     <tbody>
       <?php
       $num = 1;
-      foreach ($rak as $dat) : ?>
+      foreach ($penerbit as $dat) : ?>
         <tr>
           <th scope="row"><?= $num++; ?></th>
-          <td><?= $dat['rak']; ?></td>
+          <td><?= $dat['penerbit']; ?></td>
+          <td><?= $dat['kode_penerbit']; ?></td>
           <td><?= $dat["created_at"] ?  date_format(date_create($dat['created_at']), "M, d Y") : ""; ?></td>
           <td class="d-flex gap-1">
-            <a href="<?= base_url('dashboard/admin/masterdata/rak_buku/edit/' . $dat['id']); ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-pencil-fill"></i></a>
-            <form action="<?= base_url("dashboard/admin/masterdata/rak_buku/delete"); ?>" method="POST">
+            <a href="<?= base_url('dashboard/admin/masterdata/penerbit/edit/' . $dat['id']); ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-pencil-fill"></i></a>
+            <form action="<?= base_url("dashboard/admin/masterdata/penerbit/delete"); ?>" method="POST">
               <input type="hidden" value="<?= $dat['id']; ?>" name="id">
               <button type="submit" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></button>
             </form>

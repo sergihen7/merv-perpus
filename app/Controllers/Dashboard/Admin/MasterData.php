@@ -8,6 +8,7 @@ class MasterData extends \App\Controllers\BaseController
   protected $rakM;
   protected $kategoriM;
   protected $pengarangM;
+  protected $penerbitM;
 
   public function __construct()
   {
@@ -15,6 +16,7 @@ class MasterData extends \App\Controllers\BaseController
     $this->kategoriM = new \App\Models\KategoriModel();
     $this->rakM = new \App\Models\RakModel();
     $this->pengarangM = new \App\Models\PengarangModel();
+    $this->penerbitM = new \App\Models\PenerbitModel();
   }
 
   public function index()
@@ -172,5 +174,53 @@ class MasterData extends \App\Controllers\BaseController
     $this->pengarangM->save($val);
     session()->setFlashdata('system', 'Pengarang Tersimpan');
     return redirect()->to('dashboard/admin/masterdata/pengarang');
+  }
+  public function penerbit($index = NULL, $id = NULL)
+  {
+    $data = [
+      'title'      => 'Penerbit',
+      'app'        => $this->app,
+      'user_login' => $this->user_login,
+      'pesan_ttl'  => $this->pesan_total,
+      'penerbit'   => $this->penerbitM->find(),
+    ];
+
+    if ($index !== NULL) {
+      switch ($index) {
+        case 'create':
+          return view('dashboard/admin/penerbit-create', $data);
+          break;
+        case 'edit':
+          $data['penerbit'] = $this->penerbitM->find($id);
+          return view('dashboard/admin/penerbit-edit', $data);
+          break;
+        case 'delete':
+          $form = $this->request->getPost();
+          if (!empty($form)) {
+            $this->penerbitM->delete($form['id']);
+          }
+          return redirect()->to('dashboard/admin/masterdata/penerbit');
+          break;
+      }
+    }
+
+    $form = $this->request->getPost();
+
+    if (empty($form)) {
+      return view('dashboard/admin/penerbit', $data);
+    }
+
+    $val = [
+      'penerbit' => $form['penerbit'],
+      'kode_penerbit' => $form['kode_penerbit'],
+    ];
+
+    if (isset($form['id'])) {
+      $val['id'] = $form['id'];
+    }
+
+    $this->penerbitM->save($val);
+    session()->setFlashdata('system', 'Penerbit Tersimpan');
+    return redirect()->to('dashboard/admin/masterdata/penerbit');
   }
 }

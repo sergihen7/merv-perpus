@@ -10,6 +10,6 @@ class PenerbitModel extends Model
   protected $primaryKey = 'id';
   protected $useAutoIncrement = true;
   protected $useSoftDeletes = true;
-  protected $allowedFields = ['penerbit'];
+  protected $allowedFields = ['penerbit', 'kode_penerbit'];
   protected $useTimestamps = true;
 }

@@ -50,7 +50,7 @@
             <a href="<?= base_url("dashboard/admin/masterdata/pengarang"); ?>" class="nav-link" style="font-size: 14px;">Pengarang</a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url("dashboard/admin/masterdata/"); ?>" class="nav-link" style="font-size: 14px;">Penerbit</a>
+            <a href="<?= base_url("dashboard/admin/masterdata/penerbit"); ?>" class="nav-link" style="font-size: 14px;">Penerbit</a>
           </li>
         </ul>
       </div>
