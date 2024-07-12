@@ -25,6 +25,11 @@ class Auth extends BaseController
 
     if (!empty($user_data)) {
       if (password_verify($form['password'], $user_data['password'])) {
+        if ($user_data['verif'] == '0') {
+          session()->setFlashdata("error", "Akun kamu belum diverifikasi oleh admin. Silahkan tunggu sampai admin memverifikasi akun kamu, terimakasih.");
+          return redirect()->back();
+        }
+
         session()->set('id', $user_data['id']);
         session()->set('role', $user_data['role']);
 
