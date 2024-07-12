@@ -31,10 +31,13 @@
             <td><?= $a['email']; ?></td>
             <td><?= $a['created_at']; ?></td>
             <td><?= $a['verif'] == '1' ? 'true' : 'false'; ?></td>
-            <td>
+            <td class="d-flex gap-2">
               <button type="button" onclick="msgOpen('<?= $a['username']; ?>')" class="btn btn-sm btn-success rounded-0"><i class="bi bi-envelope-fill"></i></button>
               <a href="<?= base_url('dashboard/admin/pengguna/edit/' . $a['id']); ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-pencil-fill"></i></a>
-              <a href="" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></a>
+              <form action="<?= base_url("dashboard/admin/pengguna/delete"); ?>" method="POST">
+                <input type="hidden" value="<?= $a['id']; ?>" name="id">
+                <button type="submit" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></button>
+              </form>
             </td>
           </tr>
         <?php endforeach; ?>
@@ -64,10 +67,13 @@
             <td><?= $a['fullname']; ?></td>
             <td><?= $a['email']; ?></td>
             <td><?= $a['created_at']; ?></td>
-            <td>
+            <td class="d-flex gap-2">
               <button type="button" onclick="msgOpen('<?= $a['username']; ?>')" class="btn btn-sm btn-success rounded-0"><i class="bi bi-envelope-fill"></i></button>
               <a href="<?= base_url('dashboard/admin/pengguna/edit/' . $a['id']); ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-pencil-fill"></i></a>
-              <a href="" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></a>
+              <form action="<?= base_url("dashboard/admin/pengguna/delete"); ?>" method="POST">
+                <input type="hidden" value="<?= $a['id']; ?>" name="id">
+                <button type="submit" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></button>
+              </form>
             </td>
           </tr>
         <?php endforeach; ?>

@@ -139,4 +139,19 @@ class Pengguna extends \App\Controllers\BaseController
     return redirect()->to(base_url($redirect));
     // dd($data);
   }
+
+  public function delete()
+  {
+    $data = $this->request->getPost();
+    if (empty($data)) {
+      return redirect()->to(base_url("dashboard/home"));
+    }
+    $userdeleted = $this->userM->find($data['id']);
+    $this->userM->delete($data['id']);
+    if ($userdeleted['role'] == 'admin') {
+      return redirect()->to(base_url("dashboard/admin/pengguna/admin"));
+    } else if ($userdeleted['role'] == 'anggota') {
+      return redirect()->to(base_url("dashboard/admin/pengguna/anggota"));
+    }
+  }
 }
