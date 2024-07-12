@@ -21,7 +21,7 @@ class Auth extends BaseController
       return view('page/login', $data);
     }
 
-    $user_data = $this->userM->where('username', $form['username'])->first();
+    $user_data = $this->userM->where('username', $form['username'])->orWhere('email', $form['username'])->first();
 
     if (!empty($user_data)) {
       if (password_verify($form['password'], $user_data['password'])) {
