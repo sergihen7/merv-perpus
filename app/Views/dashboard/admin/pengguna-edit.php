@@ -37,6 +37,17 @@
       </div>
     </div>
     <div class="mb-3">
+      <label for="verif" class="form-label">is Verified?</label>
+      <select name="verif" id="verif" class="form-select <?= ($validation->hasError('verif')) ? 'is-invalid' : '' ?>">
+        <option value="1" <?= (old("verif") == '1') ? 'selected' : ($user_edit['verif'] == '1' ? 'selected' : '')   ?>>true</option>
+        <option value="0" <?= (old("verif") == '0') ? 'selected' : ($user_edit['verif'] == '0' ? 'selected' : '')   ?>>false</option>
+      </select>
+      <div class="invalid-feedback">
+        <?= $validation->getError('verif'); ?>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="role" class="form-label">User Level</label>
       <?php if ($user_edit['role'] == 'student') : ?>
         <select class="form-select" aria-label="Default select example" name="role">
           <option selected value="student">Student</option>
