@@ -25,6 +25,8 @@ class Filters extends BaseConfig
         'secureheaders' => SecureHeaders::class,
         'isLoggedin'    => \App\Filters\LoginFilter::class,
         'Auth'          => \App\Filters\AuthFilter::class,
+        'Admin'         => \App\Filters\AdminFilter::class,
+        'Anggota'       => \App\Filters\AnggotaFilter::class,
     ];
 
     /**
@@ -82,6 +84,17 @@ class Filters extends BaseConfig
             'before' => [
                 'dashboard/*'
             ]
-        ]
+        ],
+        'Admin' => [
+            'before' => [
+                'dashboard/admin*'
+            ]
+        ],
+        'Anggota' => [
+            'before' => [
+                'dashboard/anggota*'
+            ]
+        ],
+
     ];
 }
