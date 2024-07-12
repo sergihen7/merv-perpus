@@ -135,4 +135,18 @@ class Buku extends \App\Controllers\BaseController
     session()->setFlashdata('system', 'Data Buku Tersimpan');
     return redirect()->to('dashboard/admin/buku/');
   }
+
+  public function delete()
+  { {
+      $data = $this->request->getPost();
+      if (empty($data)) {
+        return redirect()->to(base_url("dashboard/home"));
+      }
+
+      $this->bukuM->delete($data['id']);
+
+      session()->setFlashdata('system', 'Buku berhasil dihapus');
+      return redirect()->back();
+    }
+  }
 }
