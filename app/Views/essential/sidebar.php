@@ -73,7 +73,7 @@
       </div>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('dashboard/admin/buku/k'); ?>"><i class="bi bi-layers-fill"></i> Katalog Buku</a>
+        <a class="nav-link" href="<?= base_url('dashboard/admin/buku/katalog'); ?>"><i class="bi bi-layers-fill"></i> Katalog Buku</a>
       </li>
 
       <li class="nav-item-divider">
@@ -142,7 +142,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('dashboard/anggota/buku/k'); ?>"><i class="bi bi-layers-fill"></i> Katalog Buku</a>
+        <a class="nav-link" href="<?= base_url('dashboard/anggota/buku/katalog'); ?>"><i class="bi bi-layers-fill"></i> Katalog Buku</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url('dashboard/anggota/buku/pinjaman'); ?>"><i class="bi bi-bookmark-fill"></i> Laporan Pinjaman</a>

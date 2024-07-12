@@ -19,7 +19,7 @@ class Buku extends \App\Controllers\BaseController
     return redirect()->to(base_url('dashboard/anggota/buku/k'));
   }
 
-  public function k($c = NULL)
+  public function katalog($c = NULL)
   {
     $data = [
       'title'      => 'Katalog Buku',
