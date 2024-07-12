@@ -59,7 +59,7 @@
                 <a href="#" onclick="msgOpen('<?= $p['username']; ?>')" type="button" class="btn btn-sm btn-success rounded-0"><i class="bi bi-envelope-fill"></i></i></a>
                 <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#edit-status-<?= $p['id']; ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-pencil-fill"></i></a>
 
-                <form action="<?= base_url("dashboard/pinjaman/delete"); ?>" method="POST">
+                <form action="<?= base_url("dashboard/admin/laporan/pinjaman"); ?>" method="POST">
                   <input type="hidden" value="<?= $p['id']; ?>" name="id">
                   <button type="submit" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></button>
                 </form>
@@ -136,7 +136,7 @@
               <td class="d-flex gap-1">
                 <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#edit-status-<?= $p['id']; ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-check2-square"></i></a>
 
-                <form action="<?= base_url("dashboard/pinjaman/delete"); ?>" method="POST">
+                <form action="<?= base_url("dashboard/admin/laporan/pinjaman"); ?>" method="POST">
                   <input type="hidden" value="<?= $p['id']; ?>" name="id">
                   <button type="submit" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></button>
                 </form>
@@ -225,7 +225,7 @@
               <td class="d-flex gap-1">
                 <a href="#" onclick="msgOpen('<?= $p['username']; ?>')" type="button" class="btn btn-sm btn-success rounded-0"><i class="bi bi-envelope-fill"></i></i></a>
 
-                <form action="<?= base_url("dashboard/pinjaman/delete"); ?>" method="POST">
+                <form action="<?= base_url("dashboard/admin/laporan/pinjaman"); ?>" method="POST">
                   <input type="hidden" value="<?= $p['id']; ?>" name="id">
                   <button type="submit" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></button>
                 </form>

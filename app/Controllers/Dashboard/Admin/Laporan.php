@@ -21,6 +21,8 @@ class Laporan extends \App\Controllers\BaseController
 
   public function pinjaman()
   {
+    $form = $this->request->getPost();
+
     $data = [
       'title'      => 'Peminjaman',
       'app'        => $this->app,
@@ -35,7 +37,12 @@ class Laporan extends \App\Controllers\BaseController
       ->whereIn('status', ['1'])
       ->find();
 
-    return view('dashboard/admin/pinjaman', $data);
+    if (empty($form))
+      return view('dashboard/admin/pinjaman', $data);
+
+    $this->peminjamanM->delete($form['id']);
+    session()->setFlashData('success', 'Laporan dihapus');
+    return redirect()->back();
   }
 
   public function pengembalian()
