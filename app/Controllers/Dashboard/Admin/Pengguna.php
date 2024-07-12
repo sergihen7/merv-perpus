@@ -104,6 +104,7 @@ class Pengguna extends \App\Controllers\BaseController
         'fullname' => $data['fullname'],
         'email'    => $data['email'],
         'role'     => $data['role'],
+        'verif'    => $data['verif'] ?? '0',
       ];
 
       $redirect = "dashboard/admin/pengguna/edit/$data[id]";
@@ -121,6 +122,7 @@ class Pengguna extends \App\Controllers\BaseController
         'password' => $data['password'],
         'email'    => $data['email'],
         'role'     => $data['role'],
+        'verif'    => $data['verif'] ?? '0',
       ];
 
       $redirect = "dashboard/admin/pengguna/create";
