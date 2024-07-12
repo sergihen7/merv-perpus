@@ -123,6 +123,7 @@ class Pengguna extends \App\Controllers\BaseController
         'email'    => $data['email'],
         'role'     => $data['role'],
         'verif'    => $data['verif'] ?? '0',
+        'foto'     => 'Default.jpg'
       ];
 
       $redirect = "dashboard/admin/pengguna/create";
