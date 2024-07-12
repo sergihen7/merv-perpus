@@ -24,6 +24,7 @@ class Filters extends BaseConfig
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
         'isLoggedin'    => \App\Filters\LoginFilter::class,
+        'Auth'          => \App\Filters\AuthFilter::class,
     ];
 
     /**
@@ -70,6 +71,13 @@ class Filters extends BaseConfig
      * @var array
      */
     public $filters = [
+        'Auth' => [
+            'before' => [
+                'sign-in',
+                'sign-up',
+                '/'
+            ],
+        ],
         'isLoggedin' => [
             'before' => [
                 'dashboard/*'
