@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LibraryClassmix - <?= $title; ?></title>
+  <title><?= $app['nama_app'] ?> - <?= $title; ?></title>
   <link rel="shortcut icon" href="<?= base_url('img/web/' . $app['logo']); ?>" type="image/x-icon">
   <?= $this->include("essential/header"); ?>
 </head>
