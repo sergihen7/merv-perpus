@@ -99,7 +99,7 @@
         ['font', ['bold', 'underline', 'clear']],
         ['color', ['color']],
         ['para', ['ul', 'ol', 'paragraph']],
-        ['insert', ['link', 'picture', 'video']],
+        ['insert', ['link']],
       ]
     });
   </script>
