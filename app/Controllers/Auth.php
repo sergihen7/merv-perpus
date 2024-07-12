@@ -59,6 +59,8 @@ class Auth extends BaseController
     // dd($form);
 
     if (!$this->validate([
+      'username'  => 'is_unique[user.username]',
+      'email'     => 'is_unique[user.email]|valid_email',
       'password2' => 'matches[password]',
     ])) {
       $validation = \Config\Services::validation();
