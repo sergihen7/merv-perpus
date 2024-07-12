@@ -6,6 +6,17 @@
 
 <a href="<?= base_url("dashboard/admin/pengguna/create"); ?>" class="btn btn-primary rounded-0 mb-3"><i class="bi bi-plus-lg"></i> Tambah</a>
 
+<?php if (session()->has('success')) : ?>
+  <div class="alert alert-success" role="alert">
+    <?= session()->get('success'); ?>
+  </div>
+<?php endif; ?>
+<?php if (session()->has('error')) : ?>
+  <div class="alert alert-danger" role="alert">
+    <?= session()->get('error'); ?>
+  </div>
+<?php endif; ?>
+
 <?php if (isset($anggota)) : ?>
   <div class="table-responsive">
     <table class="table text-nowrap align-middle m-0" id="tableData">

@@ -147,11 +147,16 @@ class Pengguna extends \App\Controllers\BaseController
       return redirect()->to(base_url("dashboard/home"));
     }
     $userdeleted = $this->userM->find($data['id']);
-    $this->userM->delete($data['id']);
-    if ($userdeleted['role'] == 'admin') {
-      return redirect()->to(base_url("dashboard/admin/pengguna/admin"));
-    } else if ($userdeleted['role'] == 'anggota') {
-      return redirect()->to(base_url("dashboard/admin/pengguna/anggota"));
+
+    if ($userdeleted["id"] == session()->get("id")) {
+      session()->setFlashdata('error', '<h2>Apa kamu ingin bunuh diri? <img src="' . base_url("img/secret/seems-alr.jfif") .  '" width="80px" /> </h2>');
+      return redirect()->back();
     }
+
+
+    $this->userM->delete($data['id']);
+
+    session()->setFlashdata('success', 'Pengguna berhasil dihapus');
+    return redirect()->back();
   }
 }
