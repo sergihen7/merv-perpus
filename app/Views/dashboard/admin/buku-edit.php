@@ -11,7 +11,7 @@
 
 <?php endif; ?>
 
-<form class="row row-cols-1 row-cols-md-2 g-4" method="POST" action="<?= base_url('dashboard/admin/buku/save'); ?>">
+<form class="row row-cols-1 row-cols-md-2 g-4" method="POST" action="<?= base_url('dashboard/admin/buku/save'); ?>" enctype="multipart/form-data">
 
   <div class="col">
     <div class="card card-body rounded-0">
@@ -87,6 +87,19 @@
           <?php endforeach; ?>
         </select>
       </div>
+
+      <div class="mb-3">
+        <label class="form-label">Sampul Buku</label>
+        <div class="card">
+          <div class="card-body">
+            <img src="<?= base_url('img/cover/' . $buku['sampul']); ?>" class="d-block mx-auto m-3" alt="<?= $buku["judul"] ?>" style="max-width: 140px;" id="fotobuku">
+            <input class="form-control" type="file" name="sampul" onchange="onImage('#fotobuku', this)">
+          </div>
+          <div class="card-footer">
+            If you won't change your pic, just leave it empty
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -98,6 +111,13 @@
       sortField: 'text'
     });
   });
+
+  function onImage(target, src) {
+    const images = document.querySelector(target);
+    console.log(images);
+    const [imagesFile] = src.files;
+    images.src = URL.createObjectURL(imagesFile);
+  }
 </script>
 
 <?= $this->endSection(); ?>

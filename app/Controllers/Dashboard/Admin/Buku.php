@@ -105,6 +105,7 @@ class Buku extends \App\Controllers\BaseController
       'penerbit'   => $this->penerbitM->find(),
       'pengarang'  => $this->pengarangM->find(),
       'rak'        => $this->rakModel->find(),
+      'validation' => \Config\Services::validation(),
     ];
 
     return view('dashboard/admin/buku-create', $data);
@@ -112,6 +113,20 @@ class Buku extends \App\Controllers\BaseController
 
   public function save()
   {
+    if (!$this->validate([
+      'judul' => 'required',
+      'isbn'  => 'required',
+      'kategori' => 'required',
+      'tahun' => 'required',
+      'stock' => 'required',
+      'pengarang' => 'required',
+      'penerbit' => 'required',
+      'rak'    => 'required',
+      'sampul'  => 'mime_in[foto_app,image/jpg,image/jpeg,image/gif,image/png]',
+    ])) {
+      return redirect()->back()->withInput();
+    }
+
     $form = $this->request->getPost();
 
     $val = [
@@ -127,9 +142,18 @@ class Buku extends \App\Controllers\BaseController
 
     if (isset($form['id'])) {
       $val['id'] = $form['id'];
-    } else {
-      $val['sampul'] = 'Default.jpg';
     }
+
+    $sampul = $this->request->getFile('sampul');
+    if ($sampul->getError() != 4) {
+      $nameimg = $sampul->getRandomName();
+      $sampul->move('img/cover', $nameimg);
+      $val['sampul'] = $nameimg;
+    } else {
+      if (!isset($val['id']))
+        $val['sampul'] = 'Default.jpg';
+    }
+
 
     $this->bukuM->save($val);
     session()->setFlashdata('system', 'Data Buku Tersimpan');
