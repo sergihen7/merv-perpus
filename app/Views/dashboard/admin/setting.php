@@ -23,7 +23,12 @@
         <div class="card">
           <div class="card-body">
             <img src="<?= base_url('img/web/' . $app['foto']); ?>" class="d-block mx-auto m-3" alt="<?= $app["nama_app"] ?> foto" style="max-width: 140px;" id="fotoApp">
-            <input class="form-control" type="file" name="foto_app" onchange="onImage('#fotoApp', this)">
+            <input class="form-control <?= $validation->hasError('foto_app') ? 'is-invalid' : '' ?>" type="file" name="foto_app" onchange="onImage('#fotoApp', this)">
+            <div class="invalid-feedback">
+              <?= $validation->getError('foto_app') ?>
+            </div>
+            <br>
+            <p class="mb-0 small">Hanya menerima gambar berjenis jpg, jpeg, gif, png</p>
           </div>
           <div class="card-footer">
             If you won't change your pic, just leave it empty
@@ -34,7 +39,12 @@
         <div class="card">
           <div class="card-body">
             <img src="<?= base_url('img/web/' . $app['logo']); ?>" class="d-block mx-auto m-3" alt="<?= $app["nama_app"] ?> logo" style="max-width: 140px;" id="logoApp">
-            <input class="form-control" type="file" name="logo_app" onchange="onImage('#logoApp', this)">
+            <input class="form-control <?= $validation->hasError('logo_app') ? 'is-invalid' : '' ?>" type="file" name="logo_app" onchange="onImage('#logoApp', this)">
+            <div class="invalid-feedback">
+              <?= $validation->getError('logo_app') ?>
+            </div>
+            <br>
+            <p class="mb-0 small">Hanya menerima gambar berjenis jpg, jpeg, gif, png</p>
           </div>
           <div class="card-footer">
             If you won't change your pic, just leave it empty
