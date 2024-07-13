@@ -98,6 +98,12 @@ class Pengguna extends \App\Controllers\BaseController
         $valid['username'] = 'required|is_unique[user.username]';
       }
 
+      if (strtolower($user['email']) == strtolower($data['email'])) {
+        $valid['email'] = 'required';
+      } else {
+        $valid['email'] = 'required|is_unique[user.email]';
+      }
+
       $save = [
         'id'       => $data['id'],
         'username' => $data['username'],
@@ -107,11 +113,15 @@ class Pengguna extends \App\Controllers\BaseController
         'verif'    => $data['verif'] ?? '0',
       ];
 
+      if (!empty($data['password'])) {
+        $save['password'] = password_hash($data['password'], PASSWORD_DEFAULT);
+      }
+
       $redirect = "dashboard/admin/pengguna/edit/$data[id]";
     } else {
       $valid = [
         'username' => 'required|is_unique[user.username]',
-        'email'    => 'required',
+        'email'    => 'required|is_unique[user.email]',
         'role'     => 'required',
         'fullname' => 'required',
       ];
@@ -119,7 +129,7 @@ class Pengguna extends \App\Controllers\BaseController
       $save = [
         'username' => $data['username'],
         'fullname' => $data['fullname'],
-        'password' => $data['password'],
+        'password' => password_hash($data['password'], PASSWORD_DEFAULT),
         'email'    => $data['email'],
         'role'     => $data['role'],
         'verif'    => $data['verif'] ?? '0',

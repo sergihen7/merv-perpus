@@ -30,6 +30,10 @@
       </div>
     </div>
     <div class="mb-3">
+      <label for="password" class="form-label">New Password</label>
+      <input type="password" class="form-control" id="password" name="password" value="<?= old("password"); ?>">
+    </div>
+    <div class="mb-3">
       <label for="email" class="form-label">Email</label>
       <input type="email" class="form-control <?= ($validation->hasError('email')) ? 'is-invalid' : '' ?>" id="email" name="email" value="<?= (old("email")) ? old("email") : $user_edit["email"] ?>">
       <div class="invalid-feedback">
