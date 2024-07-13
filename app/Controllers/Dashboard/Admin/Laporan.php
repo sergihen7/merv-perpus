@@ -167,9 +167,11 @@ class Laporan extends \App\Controllers\BaseController
     if ($p['kondisi_sebelum'] !== '0') {
       if ($form['kondisi'] == '0') {
         $denda = 20000;
+        $val['denda_status'] = '0';
       } else if ($form['kondisi'] == '2') {
         $denda = 50000;
         $stock = $stock - 1;
+        $val['denda_status'] = '0';
       }
     }
     if ($time > $p['batas_pinjam']) {
