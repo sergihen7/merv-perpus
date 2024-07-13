@@ -207,12 +207,12 @@
               <td><?= $p['judul']; ?></td>
               <td>
                 <?php if ($p['kondisi_sebelum'] !== NULL) : ?>
-                  <?= ($p['kondisi_sebelum'] == 1) ? '<span class="badge bg-success">Baik</span>' : '<span class="badge bg-danger">Rusak</span>'; ?>
+                  <?= ($p['kondisi_sebelum'] == 1) ? '<span class="badge bg-success">Baik</span>' : '<span class="badge bg-warning">Rusak</span>'; ?>
                 <?php endif; ?>
               </td>
               <td>
                 <?php if ($p['kondisi_sesudah'] !== NULL) : ?>
-                  <?= ($p['kondisi_sesudah'] == 1) ? '<span class="badge bg-success">Baik</span>' : '<span class="badge bg-danger">Rusak</span>'; ?>
+                  <?= ($p['kondisi_sesudah'] == 1) ? '<span class="badge bg-success">Baik</span>' : ($p['kondisi_sesudah'] == 2 ? '<span class="badge bg-danger">Hilang</span>' :  '<span class="badge bg-warning">Rusak</span>'); ?>
                 <?php endif; ?>
               </td>
               <td><?= date_format(date_create($p['created_at']), "M, d Y"); ?></td>
