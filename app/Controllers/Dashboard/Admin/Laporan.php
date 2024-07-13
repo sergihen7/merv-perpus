@@ -185,4 +185,18 @@ class Laporan extends \App\Controllers\BaseController
     ]);
     return redirect()->to(base_url('dashboard/admin/laporan/pinjaman'));
   }
+
+  public function denda()
+  {
+    $form = $this->request->getPost();
+
+    if (!$this->validate([
+      'id' => 'required',
+      'denda_status' => 'required'
+    ])) return redirect()->back();
+
+    $this->peminjamanM->save($form);
+    session()->setFlashdata("system", "Denda Diperbarui");
+    return redirect()->back();
+  }
 }

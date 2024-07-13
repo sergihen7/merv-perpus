@@ -57,12 +57,13 @@
               <td><?= ($p['status'] == 1) ? '<span class="badge bg-success">Dipinjam</span' : ''; ?></td>
               <td class="d-flex gap-1">
                 <a href="#" onclick="msgOpen('<?= $p['username']; ?>')" type="button" class="btn btn-sm btn-success rounded-0"><i class="bi bi-envelope-fill"></i></i></a>
-                <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#edit-status-<?= $p['id']; ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-pencil-fill"></i></a>
 
                 <form action="<?= base_url("dashboard/admin/laporan/pinjaman"); ?>" method="POST">
                   <input type="hidden" value="<?= $p['id']; ?>" name="id">
                   <button type="submit" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></button>
                 </form>
+
+                <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#edit-status-<?= $p['id']; ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-check2-square"></i></a>
 
               </td>
             </tr>
@@ -134,13 +135,11 @@
                   ?></td>
               <td><?= ($p['status'] == 0) ? '<span class="badge bg-warning">Pending</span>' : ''; ?></td>
               <td class="d-flex gap-1">
-                <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#edit-status-<?= $p['id']; ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-check2-square"></i></a>
-
                 <form action="<?= base_url("dashboard/admin/laporan/pinjaman"); ?>" method="POST">
                   <input type="hidden" value="<?= $p['id']; ?>" name="id">
                   <button type="submit" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></button>
                 </form>
-
+                <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#edit-status-<?= $p['id']; ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-check2-square"></i></a>
               </td>
             </tr>
 
@@ -182,7 +181,7 @@
     </div>
 
   <?php elseif (isset($pengembalian)) : ?>
-    <div class="table-responsive">
+    <div class="">
       <table class="table text-nowrap align-middle m-0" id="tableData">
         <thead class="table-dark">
           <tr>
@@ -194,6 +193,7 @@
             <th scope="col">Tanggal Peminjaman</th>
             <th scope="col">Status</th>
             <th scope="col">Denda</th>
+            <th scope="col">Status Denda</th>
             <th scope="col">Ket</th>
           </tr>
         </thead>
@@ -222,16 +222,50 @@
                   <span class="badge bg-danger">IDR <?= $p['denda']; ?></span>
                 <?php endif; ?>
               </td>
+              <td>
+                <?= $p['denda_status'] != NULL ? ($p['denda_status'] == 1 ? '<span class="badge bg-success">Lunas</span>' : '<span class="badge bg-danger">Belum Lunas</span>') : '' ?>
+              </td>
               <td class="d-flex gap-1">
                 <a href="#" onclick="msgOpen('<?= $p['username']; ?>')" type="button" class="btn btn-sm btn-success rounded-0"><i class="bi bi-envelope-fill"></i></i></a>
-
                 <form action="<?= base_url("dashboard/admin/laporan/pinjaman"); ?>" method="POST">
                   <input type="hidden" value="<?= $p['id']; ?>" name="id">
                   <button type="submit" class="btn btn-sm btn-danger rounded-0"><i class="bi bi-trash-fill"></i></button>
                 </form>
+                <?php if ($p['denda_status'] != NULL) : ?>
+                  <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#edit-status-<?= $p['id']; ?>" class="btn btn-sm btn-primary rounded-0"><i class="bi bi-check2-square"></i></a>
+                <?php endif; ?>
 
               </td>
             </tr>
+
+            <div class="modal fade" id="edit-status-<?= $p['id']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <form action="<?= base_url('dashboard/admin/laporan/denda'); ?>" method="POST">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Denda - <?= $p['fullname']; ?></h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <input type="hidden" value="<?= $p['id']; ?>" name="id">
+                      <div class="mb-3">
+                        <h6>Judul Buku : <?= $p['judul']; ?></h6>
+                        <label for="condition" class="form-label">Status Denda</label>
+                        <select name="denda_status" class="form-control">
+                          <option value="" selected disabled>-- Pilih Status Denda --</option>
+                          <option value="1" <?= ($p['denda_status'] == 1 ? 'selected' : '') ?>>Lunas</option>
+                          <option value="0" <?= ($p['denda_status'] == 0 ? 'selected' : '') ?>>Belum Lunas</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger rounded-0" data-bs-dismiss="modal">Cancel</button>
+                      <button type="submit" class="btn btn-primary rounded-0" data-bs-dismiss="modal">Save</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
           <?php endforeach; ?>
         </tbody>
       </table>

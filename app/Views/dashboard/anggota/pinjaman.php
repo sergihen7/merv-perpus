@@ -23,9 +23,9 @@
           <p>Author : <?= $p['nm_pengarang']; ?></p>
           <p>Status :
             <?php if ($p['status'] == 1) : ?>
-              <span class="badge bg-success">Borrowed</span>
+              <span class="badge bg-success">Dipinjam</span>
             <?php elseif ($p['status'] == 2) : ?>
-              <span class="badge bg-primary">Returned</span>
+              <span class="badge bg-primary">Dikembalikan</span>
             <?php else : ?>
               <span class="badge bg-secondary">Not Active Yet</span>
             <?php endif; ?>
@@ -44,6 +44,10 @@
             if ($p['denda'] !== NULL) {
               echo 'Denda : ';
               echo '<span class="badge bg-danger">IDR ' . $p['denda'] . '</span>';
+              echo "<p>";
+              echo 'Status Denda : ';
+              echo $p['denda_status'] == 1 ? '<span class="badge bg-success">Lunas</span>' : '<span class="badge bg-danger">Belum Lunas</span>';
+              echo "</p>";
             }
 
             ?>
