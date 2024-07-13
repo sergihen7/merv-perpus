@@ -82,6 +82,11 @@
   </table>
 </div>
 
+<script>
+  $(document).ready(function() {
+    $('#tableData').DataTable({});
+  });
+</script>
 
 
 <?= $this->endSection(); ?>
