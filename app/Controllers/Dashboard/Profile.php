@@ -18,10 +18,31 @@ class Profile extends \App\Controllers\BaseController
       'app'        => $this->app,
       'user_login' => $this->user_login,
       'pesan_ttl'  => $this->pesan_total,
+      'validation' => \Config\Services::validation(),
     ];
 
     if (empty($form)) {
       return view('dashboard/profile', $data);
+    }
+
+    $rule = [
+      'username' => 'required|is_unique[user.username]',
+      'email'    => 'required|is_unique[user.email]',
+      'fullname' => 'required',
+      'img'  => 'mime_in[img,image/jpg,image/jpeg,image/gif,image/png]',
+    ];
+
+    $user_data = $this->userM->find(session()->get('id'));
+
+    if ($form['username'] == $user_data['username']) {
+      $rule['username'] = 'required';
+    }
+    if ($form['email'] == $user_data['email']) {
+      $rule['email'] = 'required';
+    }
+
+    if (!$this->validate($rule)) {
+      return redirect()->to(base_url('dashboard/profile'))->withInput();
     }
 
     $img = $this->request->getFile('img');

@@ -19,15 +19,24 @@
       <div class="col">
         <div class="mb-3">
           <label class="form-label">Username</label>
-          <input type="text" class="form-control rounded-0 my-input" value="<?= $user_login['username']; ?>" name="username">
+          <input type="text" class="form-control rounded-0 my-input <?= $validation->hasError('username') ? 'is-invalid' : '' ?>" value="<?= $user_login['username']; ?>" name="username">
+          <div class="invalid-feedback">
+            <?= $validation->getError('username'); ?>
+          </div>
         </div>
         <div class="mb-3">
           <label class="form-label">Fullname</label>
-          <input type="text" class="form-control rounded-0 my-input" value="<?= $user_login['fullname']; ?>" name="fullname">
+          <input type="text" class="form-control rounded-0 my-input <?= $validation->hasError('fullname') ? 'is-invalid' : '' ?>" value="<?= $user_login['fullname']; ?>" name="fullname">
+          <div class="invalid-feedback">
+            <?= $validation->getError('fullname'); ?>
+          </div>
         </div>
         <div class="mb-3">
           <label class="form-label">Email</label>
-          <input type="text" class="form-control rounded-0 my-input" value="<?= $user_login['email']; ?>" name="email">
+          <input type="text" class="form-control rounded-0 my-input <?= $validation->hasError('email') ? 'is-invalid' : '' ?>" value="<?= $user_login['email']; ?>" name="email">
+          <div class="invalid-feedback">
+            <?= $validation->getError('email'); ?>
+          </div>
         </div>
       </div>
       <div class="col">
@@ -35,7 +44,12 @@
           <div class="card">
             <div class="card-body">
               <img src="<?= base_url('img/profile/' . $user_login['foto']); ?>" class="img-profile d-block mx-auto m-3" alt="Profile.Pic" style="max-width: 140px;" id="images">
-              <input class="form-control" type="file" name="img" id="fileImage" onchange="onImage()">
+              <input class="form-control <?= $validation->hasError('img') ? 'is-invalid' : '' ?> " type="file" name="img" id="fileImage" onchange="onImage()">
+              <div class="invalid-feedback">
+                <?= $validation->getError('img') ?>
+              </div>
+              <br>
+              <p class="mb-0 small">Only Accept jpg, jpeg, gif, png</p>
             </div>
             <div class="card-footer">
               If you won't change your pic, just leave it empty
@@ -48,13 +62,19 @@
       <div class="col">
         <div class="mb-3">
           <label class="form-label">Alamat</label>
-          <input type="text" class="form-control rounded-0 my-input" value="<?= $user_login['alamat']; ?>" name="alamat">
+          <input type="text" class="form-control rounded-0 my-input <?= $validation->hasError('alamat') ? 'is-invalid' : '' ?>" value="<?= $user_login['alamat']; ?>" name="alamat">
+          <div class="invalid-feedback">
+            <?= $validation->getError('alamat'); ?>
+          </div>
         </div>
       </div>
       <div class="col">
         <div class="mb-3">
           <label class="form-label">Password</label>
-          <input type="password" class="form-control rounded-0 my-input" placeholder="Password Not Change" name="password">
+          <input type="password" class="form-control rounded-0 my-input <?= $validation->hasError('password') ? 'is-invalid' : '' ?>" placeholder="Password Not Change" name="password">
+          <div class="invalid-feedback">
+            <?= $validation->getError('password'); ?>
+          </div>
         </div>
       </div>
     </div>
