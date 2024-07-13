@@ -34,7 +34,7 @@
       <div class="mb-3">
         <label class="form-label">Kategori</label>
         <select name="kategori" id="" class="<?= $validation->hasError('kategori') ? 'is-invalid' : '' ?>" placeholder="Pilih Kategori">
-          <option value=""></option>
+          <option value="">-- Pilih --</option>
           <?php foreach ($kategori as $k) : ?>
             <option value="<?= $k['id']; ?>" <?= $k['id'] == old('kategori') ? 'selected' : '' ?>><?= $k['kategori']; ?></option>
           <?php endforeach; ?>
@@ -74,7 +74,7 @@
       <div class="mb-3">
         <label class="form-label">Pengarang</label>
         <select name="pengarang" id="" class="<?= $validation->hasError('pengarang') ? 'is-invalid' : '' ?>" placeholder="Pilih Pengarang">
-          <option value=""></option>
+          <option value="">-- Pilih --</option>
           <?php foreach ($pengarang as $p) : ?>
             <option value="<?= $p['id']; ?>" <?= $p['id'] == old('pengarang') ? 'selected' : '' ?>><?= $p['pengarang']; ?></option>
           <?php endforeach; ?>
@@ -87,7 +87,7 @@
       <div class="mb-3">
         <label class="form-label">Penerbit</label>
         <select name="penerbit" id="" class="<?= $validation->hasError('penerbit') ? 'is-invalid' : '' ?>" placeholder="Pilih Penerbit">
-          <option value=""></option>
+          <option value="">-- Pilih --</option>
           <?php foreach ($penerbit as $p) : ?>
             <option value="<?= $p['id']; ?>" <?= $p['id'] == old('penerbit') ? 'selected' : '' ?>><?= $p['penerbit']; ?></option>
           <?php endforeach; ?>
@@ -100,7 +100,7 @@
       <div class="mb-3">
         <label class="form-label">Rak Buku</label>
         <select name="rak" id="" class="<?= $validation->hasError('rak') ? 'is-invalid' : '' ?>" placeholder="Pilih Anggota">
-          <option value=""></option>
+          <option value="">-- Pilih --</option>
           <?php foreach ($rak as $k) : ?>
             <option value="<?= $k['id']; ?>" <?= $k['id'] == old('rak') ? 'selected' : '' ?>><?= $k['rak']; ?></option>
           <?php endforeach; ?>

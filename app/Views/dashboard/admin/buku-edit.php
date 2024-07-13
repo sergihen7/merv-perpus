@@ -18,36 +18,50 @@
       <input type="hidden" name="id" value="<?= $buku['id']; ?>">
       <div class="mb-3">
         <label for="title" class="form-label">Judul</label>
-        <input type="text" class="form-control" id="title" name="judul" value="<?= $buku['judul']; ?>">
+        <input type="text" class="form-control <?= $validation->hasError('judul') ? 'is-invalid' : '' ?>" id=" title" name="judul" value="<?= $buku['judul']; ?>">
+        <div class="invalid-feedback">
+          <?= $validation->getError('judul'); ?>
+        </div>
       </div>
 
       <div class="mb-3">
         <label for="title" class="form-label">ISBN</label>
-        <input type="text" class="form-control" id="title" name="isbn" value="<?= $buku['isbn']; ?>">
+        <input type="text" class="form-control <?= $validation->hasError('isbn') ? 'is-invalid' : '' ?>" id="title" name="isbn" value="<?= $buku['isbn']; ?>">
+        <div class="invalid-feedback">
+          <?= $validation->getError('isbn'); ?>
+        </div>
       </div>
 
       <div class="mb-3">
         <label class="form-label">Kategori</label>
-        <select name="kategori" id="" placeholder="Pilih Kategori">
+        <select name="kategori" id="" class=" <?= $validation->hasError('kategori') ? 'is-invalid' : '' ?>" placeholder="Pilih Kategori">
           <option value=""></option>
           <?php foreach ($kategori as $k) : ?>
             <option <?= ($k['id'] == $buku['kategori']) ? 'selected' : ''; ?> value="<?= $k['id']; ?>"><?= $k['kategori']; ?></option>
           <?php endforeach; ?>
         </select>
+        <div class="invalid-feedback">
+          <?= $validation->getError('kategori'); ?>
+        </div>
       </div>
 
       <div class="row">
         <div class="col-12 col-md-6">
           <div class="mb-3">
             <label for="year" class="form-label">Tahun Terbit</label>
-            <input type="text" class="form-control" id="title" name="tahun" value="<?= $buku['tahun_terbit']; ?>">
-
+            <input type="text" class="form-control <?= $validation->hasError('tahun') ? 'is-invalid' : '' ?>" id="title" name="tahun" value="<?= $buku['tahun_terbit']; ?>">
+            <div class="invalid-feedback">
+              <?= $validation->getError('tahun'); ?>
+            </div>
           </div>
         </div>
         <div class="col-12 col-md-6">
           <div class="mb-3">
             <label for="total" class="form-label">Jumlah Buku</label>
-            <input type="text" class="form-control" id="title" name="stock" value="<?= $buku['stock']; ?>">
+            <input type="text" class="form-control <?= $validation->hasError('stock') ? 'is-invalid' : '' ?>" id="title" name="stock" value="<?= $buku['stock']; ?>">
+            <div class="invalid-feedback">
+              <?= $validation->getError('stock'); ?>
+            </div>
           </div>
         </div>
       </div>
@@ -60,32 +74,41 @@
     <div class="card card-body rounded-0">
       <div class="mb-3">
         <label class="form-label">Pengarang</label>
-        <select name="pengarang" id="" placeholder="Pilih Pengarang">
+        <select name="pengarang" id="" class=" <?= $validation->hasError('pengarang') ? 'is-invalid' : '' ?>" placeholder="Pilih Pengarang">
           <option value=""></option>
           <?php foreach ($pengarang as $p) : ?>
             <option <?= ($p['id'] == $buku['pengarang']) ? 'selected' : ''; ?> value="<?= $p['id']; ?>"><?= $p['pengarang']; ?></option>
           <?php endforeach; ?>
         </select>
+        <div class="invalid-feedback">
+          <?= $validation->getError('pengarang'); ?>
+        </div>
       </div>
 
       <div class="mb-3">
         <label class="form-label">Penerbit</label>
-        <select name="penerbit" id="" placeholder="Pilih Penerbit">
+        <select name="penerbit" id="" class=" <?= $validation->hasError('penerbit') ? 'is-invalid' : '' ?>" placeholder="Pilih Penerbit">
           <option value=""></option>
           <?php foreach ($penerbit as $p) : ?>
             <option <?= ($p['id'] == $buku['penerbit']) ? 'selected' : ''; ?> value="<?= $p['id']; ?>"><?= $p['penerbit']; ?></option>
           <?php endforeach; ?>
         </select>
+        <div class="invalid-feedback">
+          <?= $validation->getError('penerbit'); ?>
+        </div>
       </div>
 
       <div class="mb-3">
         <label class="form-label">Rak Buku</label>
-        <select name="rak" id="" placeholder="Pilih Anggota">
+        <select name="rak" id="" class=" <?= $validation->hasError('rak') ? 'is-invalid' : '' ?>" placeholder="Pilih Anggota">
           <option value=""></option>
           <?php foreach ($rak as $k) : ?>
             <option <?= ($k['id'] == $buku['rak']) ? 'selected' : ''; ?> value="<?= $k['id']; ?>"><?= $k['rak']; ?></option>
           <?php endforeach; ?>
         </select>
+        <div class="invalid-feedback">
+          <?= $validation->getError('rak'); ?>
+        </div>
       </div>
 
       <div class="mb-3">

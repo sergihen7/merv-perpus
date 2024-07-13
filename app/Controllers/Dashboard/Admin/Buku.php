@@ -86,6 +86,7 @@ class Buku extends \App\Controllers\BaseController
       'penerbit'   => $this->penerbitM->find(),
       'pengarang'  => $this->pengarangM->find(),
       'rak'        => $this->rakModel->find(),
+      'validation' => \Config\Services::validation(),
     ];
 
     $data['buku'] =
@@ -122,7 +123,7 @@ class Buku extends \App\Controllers\BaseController
       'pengarang' => 'required',
       'penerbit' => 'required',
       'rak'    => 'required',
-      'sampul'  => 'mime_in[foto_app,image/jpg,image/jpeg,image/gif,image/png]',
+      'sampul'  => 'mime_in[sampul,image/jpg,image/jpeg,image/gif,image/png]',
     ])) {
       return redirect()->back()->withInput();
     }
