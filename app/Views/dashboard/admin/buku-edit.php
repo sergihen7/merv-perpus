@@ -116,7 +116,12 @@
         <div class="card">
           <div class="card-body">
             <img src="<?= base_url('img/cover/' . $buku['sampul']); ?>" class="d-block mx-auto m-3" alt="<?= $buku["judul"] ?>" style="max-width: 140px;" id="fotobuku">
-            <input class="form-control" type="file" name="sampul" onchange="onImage('#fotobuku', this)">
+            <input class="form-control <?= $validation->hasError('img') ? 'is-invalid' : '' ?> " type="file" name="sampul" onchange="onImage('#fotobuku', this)">
+            <div class="invalid-feedback">
+              <?= $validation->getError('sampul') ?>
+            </div>
+            <br>
+            <p class="mb-0 small">Hanya menerima gambar berjenis jpg, jpeg, gif, png</p>
           </div>
           <div class="card-footer">
             If you won't change your pic, just leave it empty

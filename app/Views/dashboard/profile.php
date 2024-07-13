@@ -49,7 +49,7 @@
                 <?= $validation->getError('img') ?>
               </div>
               <br>
-              <p class="mb-0 small">Only Accept jpg, jpeg, gif, png</p>
+              <p class="mb-0 small">Hanya menerima gambar berjenis jpg, jpeg, gif, png</p>
             </div>
             <div class="card-footer">
               If you won't change your pic, just leave it empty
