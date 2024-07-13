@@ -109,7 +109,7 @@ class Pengguna extends \App\Controllers\BaseController
         'username' => $data['username'],
         'fullname' => $data['fullname'],
         'email'    => $data['email'],
-        'role'     => $data['role'],
+        'role'     => $data['role'] ?? "1",
         'verif'    => $data['verif'] ?? '0',
       ];
 
@@ -124,6 +124,7 @@ class Pengguna extends \App\Controllers\BaseController
         'email'    => 'required|is_unique[user.email]',
         'role'     => 'required',
         'fullname' => 'required',
+        'password' => 'required'
       ];
 
       $save = [
@@ -131,7 +132,7 @@ class Pengguna extends \App\Controllers\BaseController
         'fullname' => $data['fullname'],
         'password' => password_hash($data['password'], PASSWORD_DEFAULT),
         'email'    => $data['email'],
-        'role'     => $data['role'],
+        'role'     => $data['role'] ?? "1",
         'verif'    => $data['verif'] ?? '0',
         'foto'     => 'Default.jpg'
       ];
