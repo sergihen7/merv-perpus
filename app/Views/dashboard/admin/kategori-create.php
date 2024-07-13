@@ -8,7 +8,7 @@
   <form method="POST" action="<?= base_url('dashboard/admin/masterdata/kategori/'); ?>">
     <div class="mb-3">
       <label for="category" class="form-label">Nama Kategori</label>
-      <input type="text" class="form-control" id="category" name="category">
+      <input type="text" class="form-control <?= $validation->hasError('category') ? 'is-invalid' : '' ?>" id="category" name="category">
     </div>
     <button type="submit" class="btn btn-primary rounded-0">Tambah Kategori</button>
   </form>

@@ -10,7 +10,7 @@
     <div class="mb-3">
       <input type="hidden" name="id" value="<?= $kategori['id']; ?>">
       <label for="category" class="form-label">Nama Kategori</label>
-      <input type="text" class="form-control" id="category" name="category" value="<?= $kategori["kategori"] ?>">
+      <input type="text" class="form-control <?= $validation->hasError('category') ? 'is-invalid' : '' ?>" id="category" name="category" value="<?= $kategori["kategori"] ?>">
     </div>
     <button type="submit" class="btn btn-primary rounded-0">Edit Category</button>
   </form>

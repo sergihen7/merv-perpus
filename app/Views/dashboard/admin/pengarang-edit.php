@@ -10,7 +10,7 @@
     <div class="mb-3">
       <input type="hidden" name="id" value="<?= $pengarang['id']; ?>">
       <label for="pengarang" class="form-label">Nama Pengarang</label>
-      <input type="text" class="form-control" id="pengarang" name="pengarang" value="<?= $pengarang["pengarang"] ?>">
+      <input type="text" class="form-control <?= $validation->hasError('pengarang') ? 'is-invalid' : '' ?>" id="pengarang" name="pengarang" value="<?= $pengarang["pengarang"] ?>">
     </div>
     <button type="submit" class="btn btn-primary rounded-0">Edit Pengarang</button>
   </form>

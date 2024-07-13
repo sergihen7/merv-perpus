@@ -10,7 +10,7 @@
     <div class="mb-3">
       <input type="hidden" name="id" value="<?= $rak['id']; ?>">
       <label for="rak" class="form-label">Nama Rak Buku</label>
-      <input type="text" class="form-control" id="rak" name="rak" value="<?= $rak["rak"] ?>">
+      <input type="text" class="form-control <?= $validation->hasError('rak') ? 'is-invalid' : '' ?>" id="rak" name="rak" value="<?= $rak["rak"] ?>">
     </div>
     <button type="submit" class="btn btn-primary rounded-0">Edit Rak Buku</button>
   </form>

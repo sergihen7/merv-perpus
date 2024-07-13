@@ -8,11 +8,11 @@
   <form method="POST" action="<?= base_url('dashboard/admin/masterdata/penerbit/'); ?>">
     <div class="mb-3">
       <label for="penerbit" class="form-label">Nama Penerbit</label>
-      <input type="text" class="form-control" id="penerbit" name="penerbit">
+      <input type="text" class="form-control <?= $validation->hasError('penerbit') ? 'is-invalid' : '' ?>" id="penerbit" name="penerbit">
     </div>
     <div class="mb-3">
       <label for="kode_penerbit" class="form-label">Kode Penerbit</label>
-      <input type="text" class="form-control" id="kode_penerbit" name="kode_penerbit">
+      <input type="text" class="form-control <?= $validation->hasError('kode_penerbit') ? 'is-invalid' : '' ?>" id="kode_penerbit" name="kode_penerbit">
     </div>
     <button type="submit" class="btn btn-primary rounded-0">Tambah Penerbit</button>
   </form>

@@ -40,6 +40,7 @@ class MasterData extends \App\Controllers\BaseController
       'user_login' => $this->user_login,
       'pesan_ttl'  => $this->pesan_total,
       'kategori'   => $this->kategoriM->find(),
+      'validation' => \Config\Services::validation(),
     ];
 
     if ($index !== NULL) {
@@ -67,6 +68,8 @@ class MasterData extends \App\Controllers\BaseController
       return view('dashboard/admin/kategori', $data);
     }
 
+    if (!$this->validate(['category' => 'required'])) return redirect()->back()->withInput();
+
     $val = [
       'kategori' => $form['category'],
     ];
@@ -88,6 +91,7 @@ class MasterData extends \App\Controllers\BaseController
       'user_login' => $this->user_login,
       'pesan_ttl'  => $this->pesan_total,
       'rak'   => $this->rakM->find(),
+      'validation' => \Config\Services::validation(),
     ];
 
     if ($index !== NULL) {
@@ -115,6 +119,8 @@ class MasterData extends \App\Controllers\BaseController
       return view('dashboard/admin/rak', $data);
     }
 
+    if (!$this->validate(['rak' => 'required'])) return redirect()->back()->withInput();
+
     $val = [
       'rak' => $form['rak'],
     ];
@@ -136,6 +142,7 @@ class MasterData extends \App\Controllers\BaseController
       'user_login' => $this->user_login,
       'pesan_ttl'  => $this->pesan_total,
       'pengarang'   => $this->pengarangM->find(),
+      'validation' => \Config\Services::validation(),
     ];
 
     if ($index !== NULL) {
@@ -163,6 +170,8 @@ class MasterData extends \App\Controllers\BaseController
       return view('dashboard/admin/pengarang', $data);
     }
 
+    if (!$this->validate(['pengarang' => 'required'])) return redirect()->back()->withInput();
+
     $val = [
       'pengarang' => $form['pengarang'],
     ];
@@ -183,6 +192,7 @@ class MasterData extends \App\Controllers\BaseController
       'user_login' => $this->user_login,
       'pesan_ttl'  => $this->pesan_total,
       'penerbit'   => $this->penerbitM->find(),
+      'validation' => \Config\Services::validation(),
     ];
 
     if ($index !== NULL) {
@@ -209,6 +219,8 @@ class MasterData extends \App\Controllers\BaseController
     if (empty($form)) {
       return view('dashboard/admin/penerbit', $data);
     }
+
+    if (!$this->validate(['penerbit' => 'required', 'kode_penerbit' => 'required'])) return redirect()->back()->withInput();
 
     $val = [
       'penerbit' => $form['penerbit'],
