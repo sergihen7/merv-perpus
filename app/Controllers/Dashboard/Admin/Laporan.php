@@ -111,6 +111,10 @@ class Laporan extends \App\Controllers\BaseController
 
   public function save()
   {
+    if (!$this->validate([
+      'kondisi' => 'required'
+    ])) return redirect()->back();
+
     $form = $this->request->getPost();
 
     $duration = $form['durasi'] * (7 * 24 * 60 * 60);
@@ -147,6 +151,10 @@ class Laporan extends \App\Controllers\BaseController
 
   public function returnSection()
   {
+    if (!$this->validate([
+      'kondisi' => 'required'
+    ])) return redirect()->back();
+
     $form = $this->request->getPost();
     $p    = $this->peminjamanM->find($form['id']);
     $buku = $this->bukuM->find($p['buku_id']);
