@@ -21,7 +21,7 @@
           <h2 class="card-title"><?= $user; ?></h2>
           <p class="card-text">Anggota</p>
         </div>
-        <a href="<?= base_url("dashboard/admin/pengguna"); ?>" class="text-light text-decoration-none">
+        <a href="<?= base_url("dashboard/admin/pengguna/anggota"); ?>" class="text-light text-decoration-none">
           <div class="card-footer text-center border-0" style="background-color: rgba(0,0,0,0.2);">
             <small>More info <i class="bi bi-arrow-right-circle-fill"></i>
             </small>
