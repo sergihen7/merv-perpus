@@ -17,39 +17,51 @@
 
     <div class="mb-3">
       <label for="id_user" class="form-label">Nama Anggota</label>
-      <select type="text" id="id_user" name="id_user" placeholder="Pilih Anggota">
+      <select type="text" id="id_user" class="<?= $validation->hasError('id_user') ? 'is-invalid' : '' ?>" name="id_user" placeholder="Pilih Anggota">
         <option value=""></option>
         <?php foreach ($user as $u) : ?>
-          <option value="<?= $u['id']; ?>"><?= $u['fullname']; ?>
+          <option value="<?= $u['id']; ?>" <?= old('id_user') == $u['id'] ? 'selected' : '' ?>><?= $u['fullname']; ?>
           </option>
         <?php endforeach; ?>
       </select>
+      <div class="invalid-feedback">
+        <?= $validation->getError('id_user') ?>
+      </div>
     </div>
 
     <div class="mb-3">
       <label for="id_book" class="form-label">Judul Buku</label>
-      <select type="text" id="id_book" name="id_buku" placeholder="Pilih Buku">
+      <select type="text" id="id_book" class="<?= $validation->hasError('id_buku') ? 'is-invalid' : '' ?>" name="id_buku" placeholder="Pilih Buku">
         <option value=""></option>
         <?php foreach ($buku as $b) : ?>
-          <option value="<?= $b['id']; ?>"><?= $b['judul']; ?>
+          <option value="<?= $b['id']; ?>" <?= old('id_buku') == $b['id'] ? 'selected' : '' ?>><?= $b['judul']; ?>
           </option>
         <?php endforeach; ?>
       </select>
+      <div class="invalid-feedback">
+        <?= $validation->getError('id_buku') ?>
+      </div>
     </div>
     <div class="mb-3">
       <label for="duration" class="form-label">Durasi Peminjaman</label>
-      <select name="durasi" id="duration">
-        <option value="1">1 Minggu</option>
-        <option value="2">2 Minggu</option>
-        <option value="3">3 Minggu</option>
+      <select name="durasi" id="duration" class="<?= $validation->hasError('durasi') ? 'is-invalid' : '' ?>">
+        <option value="1" <?= old('durasi') == '1' ? 'selected' : '' ?>>1 Minggu</option>
+        <option value="2" <?= old('durasi') == '2' ? 'selected' : '' ?>>2 Minggu</option>
+        <option value="3" <?= old('durasi') == '3' ? 'selected' : '' ?>>3 Minggu</option>
       </select>
+      <div class="invalid-feedback">
+        <?= $validation->getError('durasi') ?>
+      </div>
     </div>
     <div class="mb-3">
       <label for="condition" class="form-label">Kondisi Buku</label>
-      <select name="kondisi" id="condition">
-        <option value="1">Baik</option>
-        <option value="0">Rusak</option>
+      <select name="kondisi" id="condition" class="<?= $validation->hasError('id_buku') ? 'is-invalid' : '' ?>">
+        <option value="1" <?= old('kondisi') == '1' ? 'selected' : '' ?>>Baik</option>
+        <option value="0" <?= old('kondisi') == '0' ? 'selected' : '' ?>>Rusak</option>
       </select>
+      <div class="invalid-feedback">
+        <?= $validation->getError('kondisi') ?>
+      </div>
     </div>
     <button type="submit" class="btn btn-primary rounded-0">Tambah</button>
   </form>

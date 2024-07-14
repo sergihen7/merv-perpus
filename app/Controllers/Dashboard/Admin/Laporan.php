@@ -71,6 +71,7 @@ class Laporan extends \App\Controllers\BaseController
       'app'        => $this->app,
       'user_login' => $this->user_login,
       'pesan_ttl'  => $this->pesan_total,
+      'validation' => \Config\Services::validation()
     ];
 
     $data['user'] = $this->userM
@@ -112,8 +113,10 @@ class Laporan extends \App\Controllers\BaseController
   public function save()
   {
     if (!$this->validate([
-      'kondisi' => 'required'
-    ])) return redirect()->back();
+      'kondisi' => 'required',
+      'id_user' => 'required',
+      'id_buku' => 'required',
+    ])) return redirect()->back()->withInput();
 
     $form = $this->request->getPost();
 
