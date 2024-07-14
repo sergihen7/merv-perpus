@@ -56,7 +56,7 @@ class Profile extends \App\Controllers\BaseController
       'alamat'   => $form['alamat'],
     ];
 
-    if (isset($form['password'])) {
+    if (!empty($form['password'])) {
       $save['password'] = password_hash($form['password'], PASSWORD_DEFAULT);
     }
 
