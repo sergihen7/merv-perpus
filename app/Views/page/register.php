@@ -12,6 +12,8 @@
     <?php endif; ?>
     <div class="card card-body rounded-0 border-0">
       <form action="<?= base_url('auth/register'); ?>" method="POST">
+        <h3 class="text-center pt-3"><?= $app['nama_app']; ?></h3>
+
         <img src="<?= base_url('img/web/' . $app['foto']); ?>" class="mx-auto d-block mb-5 mt-5" style="width: 100%; max-width: 150px;" alt="Logo">
 
         <input type="text" class="form-control mb-1 rounded-0 <?= $validation->hasError('username') ? 'is-invalid' : ''; ?>" value="<?= old('username'); ?>" placeholder="Username" name="username">
