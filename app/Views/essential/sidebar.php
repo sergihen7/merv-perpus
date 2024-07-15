@@ -116,13 +116,13 @@
 
     </ul>
   </div>
-<?php elseif (session()->get('role') == 'anggota') : ?>
+<?php else : ?>
   <div class="p-0 dashboard-navbar" id="dashboardNavbar">
     <div class="dashboard-header justify-content-center">
       <span class="mob-close-sidebar position-absolute" id="navToggle" style="right: 10px;" onclick="mySidebar()">
         <i class="bi bi-x-lg"></i>
       </span>
-      <h4 class="m-0"><?= $app['nama_app']; ?></h4>
+      <h4 class="m-0"><img src="<?= base_url('img/web/' . $app['logo']); ?>" alt="logo" style="width: 100%; max-width: 35px;"> <?= $app['nama_app']; ?></h4>
     </div>
     <ul class="navbar-nav">
       <li class="nav-item pt-3 pb-3 d-flex align-items-center">
