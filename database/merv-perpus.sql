@@ -14,7 +14,7 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Dumping structure for table merv_perpus_v1.aplikasi
+-- Dumping structure for table merv_perpus.aplikasi
 CREATE TABLE IF NOT EXISTS `aplikasi` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nama_app` varchar(255) NOT NULL,
@@ -30,11 +30,11 @@ CREATE TABLE IF NOT EXISTS `aplikasi` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table merv_perpus_v1.aplikasi: ~1 rows (approximately)
+-- Dumping data for table merv_perpus.aplikasi: ~0 rows (approximately)
 REPLACE INTO `aplikasi` (`id`, `nama_app`, `foto`, `logo`, `alamat_app`, `email_app`, `nomor_hp`, `copyright`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'Merv Perpus', 'book.jfif', '1720668323_c332e5ea96b85d95d52d.jpg', 'Bekasi', 'ddd@merv-perpus.xyz', '123456789', 'sergihen7', NULL, '2024-07-13 23:30:35', NULL);
 
--- Dumping structure for table merv_perpus_v1.buku
+-- Dumping structure for table merv_perpus.buku
 CREATE TABLE IF NOT EXISTS `buku` (
   `id` int NOT NULL AUTO_INCREMENT,
   `judul` varchar(255) NOT NULL,
@@ -60,15 +60,15 @@ CREATE TABLE IF NOT EXISTS `buku` (
   CONSTRAINT `buku_ibfk_4` FOREIGN KEY (`rak`) REFERENCES `rak` (`id`) ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table merv_perpus_v1.buku: ~5 rows (approximately)
+-- Dumping data for table merv_perpus.buku: ~5 rows (approximately)
 REPLACE INTO `buku` (`id`, `judul`, `sampul`, `kategori`, `penerbit`, `pengarang`, `rak`, `tahun_terbit`, `isbn`, `stock`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'Last Hope is Me', 'Default.png', 6, 3, 2, 1, '2022', '0990AHJVS23', 19, NULL, '2024-07-13 13:35:36', NULL),
 	(2, 'The Half Planet is Like a Cake', 'Default.png', 6, 1, 2, 1, '2024', '280934JAVH8', 662, NULL, '2023-02-13 19:42:44', NULL),
 	(3, 'Dead in Sleep', 'Default.png', 4, 1, 5, 1, '2024', '30847SWVIUYSV', 10, NULL, '2024-07-13 09:11:31', NULL),
 	(4, 'How Pyhsics Work?', 'Default.png', 3, 2, 1, 1, '2024', '9384ISYG785', 34, NULL, '2023-02-14 00:19:25', NULL),
-	(6, 'Last Hope is Me', '1720883378_091ebfed35a9bbd0561a.png', 5, 1, 2, 1, '2024', '0990AHJVS23', 20, '2023-02-13 21:57:15', '2024-07-13 10:09:38', NULL);
+	(6, 'Last Hope is Me', 'Default.png', 5, 1, 2, 1, '2024', '0990AHJVS23', 20, '2023-02-13 21:57:15', '2024-07-13 10:09:38', NULL);
 
--- Dumping structure for table merv_perpus_v1.kategori
+-- Dumping structure for table merv_perpus.kategori
 CREATE TABLE IF NOT EXISTS `kategori` (
   `id` int NOT NULL AUTO_INCREMENT,
   `kategori` varchar(255) NOT NULL,
@@ -78,7 +78,7 @@ CREATE TABLE IF NOT EXISTS `kategori` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table merv_perpus_v1.kategori: ~6 rows (approximately)
+-- Dumping data for table merv_perpus.kategori: ~6 rows (approximately)
 REPLACE INTO `kategori` (`id`, `kategori`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'Umum 11', '2023-02-14 09:58:02', '2024-07-13 13:02:07', NULL),
 	(2, 'Sains', '2023-02-14 00:00:00', NULL, NULL),
@@ -87,7 +87,7 @@ REPLACE INTO `kategori` (`id`, `kategori`, `created_at`, `updated_at`, `deleted_
 	(5, 'Action', '2023-02-14 00:00:00', NULL, NULL),
 	(6, 'Gore', '1900-01-16 00:00:00', NULL, NULL);
 
--- Dumping structure for table merv_perpus_v1.pemberitahuan
+-- Dumping structure for table merv_perpus.pemberitahuan
 CREATE TABLE IF NOT EXISTS `pemberitahuan` (
   `id` int NOT NULL AUTO_INCREMENT,
   `judul` varchar(255) NOT NULL,
@@ -100,11 +100,11 @@ CREATE TABLE IF NOT EXISTS `pemberitahuan` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table merv_perpus_v1.pemberitahuan: ~1 rows (approximately)
+-- Dumping data for table merv_perpus.pemberitahuan: ~0 rows (approximately)
 REPLACE INTO `pemberitahuan` (`id`, `judul`, `isi`, `level_akses`, `status`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'Selamat datang di perpus kami', 'Semoga harimu menyenangkan yaaa', '0', '1', '2023-02-14 07:39:04', '2023-02-14 00:00:00', NULL);
 
--- Dumping structure for table merv_perpus_v1.peminjaman
+-- Dumping structure for table merv_perpus.peminjaman
 CREATE TABLE IF NOT EXISTS `peminjaman` (
   `id` int NOT NULL AUTO_INCREMENT,
   `buku_id` int NOT NULL,
@@ -127,7 +127,7 @@ CREATE TABLE IF NOT EXISTS `peminjaman` (
   CONSTRAINT `peminjaman_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table merv_perpus_v1.peminjaman: ~16 rows (approximately)
+-- Dumping data for table merv_perpus.peminjaman: ~16 rows (approximately)
 REPLACE INTO `peminjaman` (`id`, `buku_id`, `user_id`, `kondisi_sebelum`, `kondisi_sesudah`, `status`, `durasi`, `batas_pinjam`, `tanggal_kembali`, `denda`, `denda_status`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 1, 1, '1', '1', '2', 2, '2023-02-14 07:19:38', '2023-02-14 00:00:00', NULL, NULL, '2023-02-13 02:00:57', '2023-02-13 02:00:57', NULL),
 	(3, 1, 4, '1', '0', '2', 2, '2023-02-27 19:40:18', '2023-02-13 20:25:47', 20000, '0', '2023-02-13 18:20:17', '2023-02-13 20:25:47', NULL),
@@ -146,7 +146,7 @@ REPLACE INTO `peminjaman` (`id`, `buku_id`, `user_id`, `kondisi_sebelum`, `kondi
 	(17, 2, 4, NULL, NULL, '0', 3, NULL, NULL, NULL, NULL, '2024-07-13 08:50:26', '2024-07-13 23:35:19', '2024-07-13 23:35:19'),
 	(18, 3, 4, '1', NULL, '1', 3, '2024-08-03 09:11:31', NULL, NULL, NULL, '2024-07-13 08:50:42', '2024-07-13 09:11:31', NULL);
 
--- Dumping structure for table merv_perpus_v1.penerbit
+-- Dumping structure for table merv_perpus.penerbit
 CREATE TABLE IF NOT EXISTS `penerbit` (
   `id` int NOT NULL AUTO_INCREMENT,
   `penerbit` varchar(255) NOT NULL,
@@ -157,7 +157,7 @@ CREATE TABLE IF NOT EXISTS `penerbit` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table merv_perpus_v1.penerbit: ~5 rows (approximately)
+-- Dumping data for table merv_perpus.penerbit: ~5 rows (approximately)
 REPLACE INTO `penerbit` (`id`, `penerbit`, `kode_penerbit`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'HR. HUARAX', 'KD_9812HA4', NULL, NULL, NULL),
 	(2, 'R.M.B Cooperative', 'KD_8072HJA2', NULL, NULL, NULL),
@@ -165,7 +165,7 @@ REPLACE INTO `penerbit` (`id`, `penerbit`, `kode_penerbit`, `created_at`, `updat
 	(4, 'UMBRELLA.CO', 'KD_68273LAOBN12', NULL, NULL, NULL),
 	(5, 'Birus', 'KD_893928GAJSH', NULL, NULL, NULL);
 
--- Dumping structure for table merv_perpus_v1.pengarang
+-- Dumping structure for table merv_perpus.pengarang
 CREATE TABLE IF NOT EXISTS `pengarang` (
   `id` int NOT NULL AUTO_INCREMENT,
   `pengarang` varchar(255) NOT NULL,
@@ -175,7 +175,7 @@ CREATE TABLE IF NOT EXISTS `pengarang` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table merv_perpus_v1.pengarang: ~5 rows (approximately)
+-- Dumping data for table merv_perpus.pengarang: ~5 rows (approximately)
 REPLACE INTO `pengarang` (`id`, `pengarang`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'Asep Kronos', NULL, NULL, NULL),
 	(2, 'Yud Haing Holi', NULL, NULL, NULL),
@@ -183,7 +183,7 @@ REPLACE INTO `pengarang` (`id`, `pengarang`, `created_at`, `updated_at`, `delete
 	(4, 'Las trespretiawq', NULL, NULL, NULL),
 	(5, 'Los Prosi Ontroins Onzekr', NULL, NULL, NULL);
 
--- Dumping structure for table merv_perpus_v1.pesan
+-- Dumping structure for table merv_perpus.pesan
 CREATE TABLE IF NOT EXISTS `pesan` (
   `id` int NOT NULL AUTO_INCREMENT,
   `dari_user_id` int NOT NULL,
@@ -201,13 +201,13 @@ CREATE TABLE IF NOT EXISTS `pesan` (
   CONSTRAINT `pesan_ibfk_2` FOREIGN KEY (`untuk_user_id`) REFERENCES `user` (`id`) ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table merv_perpus_v1.pesan: ~3 rows (approximately)
+-- Dumping data for table merv_perpus.pesan: ~0 rows (approximately)
 REPLACE INTO `pesan` (`id`, `dari_user_id`, `untuk_user_id`, `judul`, `isi`, `status`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(9, 5, 4, 'Testimoni', '<p>Ini Pesan Testimoni</p>', '1', '2024-07-10 22:34:19', '2024-07-10 22:34:41', NULL),
 	(10, 4, 5, '', '<p>Halo, Perkenalan</p><p>Saya Manusia <b><u><i style="background-color: rgb(0, 255, 255);">Biasa</i></u></b></p><ul><li>List 1</li><li>List 2</li></ul>', '1', '2024-07-10 22:37:13', '2024-07-10 22:37:33', NULL),
 	(11, 4, 5, '', '<p>semua buku sudah saya kembalikan</p>', '1', '2024-07-13 07:54:30', '2024-07-13 07:55:31', NULL);
 
--- Dumping structure for table merv_perpus_v1.rak
+-- Dumping structure for table merv_perpus.rak
 CREATE TABLE IF NOT EXISTS `rak` (
   `id` int NOT NULL AUTO_INCREMENT,
   `rak` varchar(255) NOT NULL,
@@ -217,14 +217,14 @@ CREATE TABLE IF NOT EXISTS `rak` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table merv_perpus_v1.rak: ~4 rows (approximately)
+-- Dumping data for table merv_perpus.rak: ~0 rows (approximately)
 REPLACE INTO `rak` (`id`, `rak`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'A-001', NULL, NULL, NULL),
 	(2, 'A-002', NULL, NULL, NULL),
 	(3, 'A-003', NULL, NULL, NULL),
 	(4, 'Rak-12', '2024-07-13 11:17:45', '2024-07-13 13:36:41', '2024-07-13 13:36:41');
 
--- Dumping structure for table merv_perpus_v1.user
+-- Dumping structure for table merv_perpus.user
 CREATE TABLE IF NOT EXISTS `user` (
   `id` int NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
@@ -243,7 +243,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   UNIQUE KEY `email` (`email`)
 ) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table merv_perpus_v1.user: ~5 rows (approximately)
+-- Dumping data for table merv_perpus.user: ~5 rows (approximately)
 REPLACE INTO `user` (`id`, `username`, `password`, `email`, `fullname`, `foto`, `alamat`, `verif`, `role`, `created_at`, `updated_at`, `deleted_at`) VALUES
 	(1, 'sergi', '$2y$10$YZu2m5yNc79m0WRwa2WVyOzoNeJgM0VFh0Ww97ZYJv96JARHNK1Ku', 'test@gmail.com', 'sergi sultan', 'Default.jpg', '', '1', 'anggota', '2023-02-12 21:59:25', '2023-02-14 00:14:59', NULL),
 	(4, 'sergihen', '$2y$10$qe1FWJB5YmsPxHI7plWeMeGTGS7Cv78SjARo3Mi2MUxmr4c1reQsu', 'sergihen@test.com', 'sergihen', '1720506385_5021351ca1ccf86d24a1.jpg', '', '1', 'anggota', '2023-02-13 01:53:11', '2024-07-09 03:25:23', NULL),

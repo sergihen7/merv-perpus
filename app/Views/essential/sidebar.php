@@ -114,15 +114,19 @@
         <a class="nav-link" href="<?= base_url('auth/logout'); ?>"><i class="bi bi-door-open-fill"></i> Keluar</a>
       </li>
 
+      <li class="nav-item-divider">
+        <a class="nav-link text-center"><small>Copyright &copy; <?= date('Y') ?> <?= $app['copyright'] ?>. All Rights Reserved</small></a>
+      </li>
+
     </ul>
   </div>
-<?php elseif (session()->get('role') == 'anggota') : ?>
+<?php else : ?>
   <div class="p-0 dashboard-navbar" id="dashboardNavbar">
     <div class="dashboard-header justify-content-center">
       <span class="mob-close-sidebar position-absolute" id="navToggle" style="right: 10px;" onclick="mySidebar()">
         <i class="bi bi-x-lg"></i>
       </span>
-      <h4 class="m-0"><?= $app['nama_app']; ?></h4>
+      <h4 class="m-0"><img src="<?= base_url('img/web/' . $app['logo']); ?>" alt="logo" style="width: 100%; max-width: 35px;"> <?= $app['nama_app']; ?></h4>
     </div>
     <ul class="navbar-nav">
       <li class="nav-item pt-3 pb-3 d-flex align-items-center">
@@ -181,12 +185,18 @@
         <a class="nav-link">Lanjutan</a>
       </li>
 
+
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url('dashboard/profile'); ?>"><i class="bi bi-person-circle"></i> Setelan Akun</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url('auth/logout'); ?>"><i class="bi bi-door-open-fill"></i> Keluar</a>
       </li>
+
+      <li class="nav-item-divider">
+        <a class="nav-link text-center"><small>Copyright &copy; <?= date('Y') ?> <?= $app['copyright'] ?>. All Rights Reserved</small></a>
+      </li>
+
 
     </ul>
   </div>

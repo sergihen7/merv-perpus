@@ -64,9 +64,10 @@ class Auth extends BaseController
     // dd($form);
 
     if (!$this->validate([
-      'username'  => 'is_unique[user.username]',
-      'email'     => 'is_unique[user.email]|valid_email',
-      'password2' => 'matches[password]',
+      'username'  => 'required|is_unique[user.username]',
+      'fullname'  => 'required',
+      'email'     => 'required|is_unique[user.email]|valid_email',
+      'password'  => 'required|matches[password2]',
     ])) {
       $validation = \Config\Services::validation();
       return redirect()->to(base_url('sign-up'))->withInput()->with('validation', $validation);
@@ -80,7 +81,7 @@ class Auth extends BaseController
       'foto'     => 'Default.jpg',
     ]);
 
-    session()->setFlashdata('success', 'Register berhasil, sekarang konfirmasi pendaftaran melalui adminintrator');
+    session()->setFlashdata('success', 'Register berhasil, sekarang konfirmasi pendaftaran di bagian administrator');
     return redirect()->to(base_url('sign-in'));
   }
 

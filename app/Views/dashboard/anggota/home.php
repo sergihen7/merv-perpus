@@ -33,7 +33,7 @@
       <div class="card text-bg-danger rounded-0 border-0 h-100">
         <div class="card-body">
           <h2 class="card-title"><?= $pengembalian_ttl; ?></h2>
-          <p class="card-text">Pengermbalian Buku</p>
+          <p class="card-text">Pengembalian Buku</p>
         </div>
         <a href="<?= base_url("dashboard/anggota/buku/histori"); ?>" class="text-light text-decoration-none">
           <div class="card-footer text-center border-0" style="background-color: rgba(0,0,0,0.2);">
