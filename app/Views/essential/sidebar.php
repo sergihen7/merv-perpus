@@ -114,6 +114,10 @@
         <a class="nav-link" href="<?= base_url('auth/logout'); ?>"><i class="bi bi-door-open-fill"></i> Keluar</a>
       </li>
 
+      <li class="nav-item-divider">
+        <a class="nav-link text-center"><small>Copyright &copy; <?= date('Y') ?> <?= $app['copyright'] ?>. All Rights Reserved</small></a>
+      </li>
+
     </ul>
   </div>
 <?php else : ?>
@@ -181,12 +185,18 @@
         <a class="nav-link">Lanjutan</a>
       </li>
 
+
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url('dashboard/profile'); ?>"><i class="bi bi-person-circle"></i> Setelan Akun</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url('auth/logout'); ?>"><i class="bi bi-door-open-fill"></i> Keluar</a>
       </li>
+
+      <li class="nav-item-divider">
+        <a class="nav-link text-center"><small>Copyright &copy; <?= date('Y') ?> <?= $app['copyright'] ?>. All Rights Reserved</small></a>
+      </li>
+
 
     </ul>
   </div>
